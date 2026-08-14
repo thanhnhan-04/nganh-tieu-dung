@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14 20:02:08 UTC",
+  "generatedAt": "2026-08-14 20:52:56 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -43,8 +43,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 59100.0,
-          "volume": 10506300
+          "close": 58400.0,
+          "volume": 0
         },
         {
           "date": "2026-07-23",
@@ -173,8 +173,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 27000.0,
-          "volume": 39800
+          "close": 27350.0,
+          "volume": 0
         },
         {
           "date": "2026-07-23",
@@ -311,8 +311,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 46950.0,
-          "volume": 518500
+          "close": 47000.0,
+          "volume": 0
         },
         {
           "date": "2026-07-23",
@@ -469,7 +469,7 @@
         {
           "date": "2026-07-21",
           "close": 15.74,
-          "volume": 46
+          "volume": 19
         },
         {
           "date": "2026-07-22",
@@ -736,7 +736,7 @@
       "price": 1191.25,
       "change": 16.75,
       "changePct": 0.014261,
-      "volume": 92880,
+      "volume": 92879,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-14",
@@ -889,7 +889,7 @@
         {
           "date": "2026-08-14",
           "close": 1191.25,
-          "volume": 92880
+          "volume": 92879
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1072,6 +1072,11 @@
       "timestamp": "2026-08-14",
       "history": [
         {
+          "date": "2026-07-05",
+          "close": 26294.0,
+          "volume": 0
+        },
+        {
           "date": "2026-07-06",
           "close": 26299.0,
           "volume": 0
@@ -1209,11 +1214,6 @@
         {
           "date": "2026-08-12",
           "close": 26049.0,
-          "volume": 0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 26070.0,
           "volume": 0
         },
         {
