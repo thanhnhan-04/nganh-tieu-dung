@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consumer Key Driver Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">
+        <b>CON<i>.</i></b>
+        <small>KEY DRIVER DASHBOARD<br>VNM · MCM · QNS · SAB</small>
+      </div>
+      <div class="nav">
+        <button class="active" data-tab="drivers"><span>01 · Key Driver Monitor</span></button>
+        <button data-tab="overview"><span>02 · Company Snapshot</span></button>
+        <button data-tab="bridge"><span>03 · Revenue → Margin → Profit</span></button>
+        <button data-tab="catalyst"><span>04 · Catalyst & Regulatory Calendar</span></button>
+        <button data-tab="sources"><span>05 · Data Quality & Sources</span></button>
+      </div>
+      <div class="livebox">
+        <span>Live data</span>
+        <b id="liveState">Đang kết nối</b>
+        <small id="liveTime">--</small>
+      </div>
+    </aside>
+
+    <main>
+      <div class="top">
+        <div>
+          <h1 id="pageTitle">Key Driver Monitor</h1>
+          <p><b>Driver trước, mã sau</b> — mỗi driver gắn với công ty bị ảnh hưởng, mức độ, và cơ chế truyền dẫn.</p>
+        </div>
+        <div class="top-actions">
+          <select id="tickerSelect" class="sel" aria-label="Chọn mã"></select>
+          <button id="refreshBtn" class="btn" type="button">Refresh live</button>
+          <div class="asof">Cut-off · 13/08/2026</div>
+        </div>
+      </div>
+
+      <section id="drivers" class="tab active">
+        <div class="sh">
+          <h2>Key Driver Monitor</h2>
+          <p>Driver sống (live commodity/FX proxy), driver vận hành (theo dõi qua BCTC quý) và driver chính sách (sự kiện hành chính) — mỗi thẻ trả lời: driver này đang nói gì, và ảnh hưởng công ty nào ra sao.</p>
+        </div>
+        <div class="toolbar">
+          <input id="driverSearch" class="inp" placeholder="Tìm driver / mã / từ khoá..." autocomplete="off">
+          <select id="categoryFilter" class="sel">
+            <option value="">Tất cả loại driver</option>
+            <option value="market-live">Live — giá hàng hoá/FX</option>
+            <option value="operational">Vận hành — theo quý</option>
+            <option value="policy">Chính sách — không có live feed</option>
+          </select>
+          <select id="tickerFilter" class="sel">
+            <option value="">Tất cả mã</option>
+            <option value="VNM">VNM</option>
+            <option value="MCM">MCM</option>
+            <option value="QNS">QNS</option>
+            <option value="SAB">SAB</option>
+          </select>
+        </div>
+        <div id="liveStrip" class="grid g4"></div>
+        <div id="driverCards" class="grid g2"></div>
+      </section>
+
+      <section id="overview" class="tab">
+        <div id="overviewCards" class="grid g5"></div>
+
+        <div class="sec">
+          <div class="sh">
+            <h2>Company Snapshot</h2>
+            <p>Tóm tắt theo mã — driver chính, độ mới của dữ liệu nguồn, và các cảnh báo chất lượng dữ liệu.</p>
+          </div>
+          <div id="companyCards" class="grid g4"></div>
+        </div>
+
+        <div class="sec grid g2">
+          <div class="card">
+            <div class="klabel">Selected company</div>
+            <div id="selectedSummary"></div>
+          </div>
+          <div class="card">
+            <div class="klabel">Driver liên quan</div>
+            <div id="readThrough"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="bridge" class="tab">
+        <div class="sh">
+          <h2>Revenue → Margin → Profit</h2>
+          <p>Cùng một mã nhưng driver của doanh thu và driver của biên có thể khác nhau; model vs kế hoạch công ty được tách riêng khi có khác biệt.</p>
+        </div>
+        <div class="grid g2">
+          <div class="card">
+            <div class="klabel">Operating trajectory</div>
+            <div id="trendChart" class="chart tall"></div>
+          </div>
+          <div class="card">
+            <div class="klabel" id="mixTitle">Driver mix</div>
+            <div id="mixChart" class="chart"></div>
+          </div>
+        </div>
+        <div id="guidanceGap" class="sec"></div>
+        <div class="sec tablewrap">
+          <table>
+            <thead><tr><th>Khoản mục</th><th>Actual gần nhất</th><th>2026F / latest</th><th>Delta</th><th>Giải thích business</th></tr></thead>
+            <tbody id="bridgeBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="catalyst" class="tab">
+        <div class="sh">
+          <h2>Catalyst & Regulatory Calendar</h2>
+          <p>Trạng thái tính theo ngày cut-off 13/08/2026 — "đã qua/cần xác minh" nghĩa là nguồn chưa có kết quả thực tế, không mặc định là đã xảy ra đúng như kỳ vọng.</p>
+        </div>
+        <div id="timeline" class="grid g3"></div>
+      </section>
+
+      <section id="sources" class="tab">
+        <div class="sh">
+          <h2>Data Quality & Sources</h2>
+          <p>Mỗi ô dữ liệu phải trả lời được: số này từ đâu, và có mâu thuẫn nội bộ nào giữa các file nguồn không.</p>
+        </div>
+        <div class="card">
+          <div class="src-tier"><div class="tier t1">TIER 1</div><div><b>Workbook model / BCTC</b><br><span class="mini">Dùng cho financial actual, forecast, segment bridge, margin, valuation.</span></div></div>
+          <div class="src-tier"><div class="tier t2">TIER 2</div><div><b>Slides, ĐHCĐ notes, research report trong folder</b><br><span class="mini">Dùng cho thesis, catalyst, management plan, qualitative driver.</span></div></div>
+          <div class="src-tier"><div class="tier t3">TIER 3</div><div><b>Live quote / commodity &amp; FX proxy</b><br><span class="mini">Dùng để cảnh báo direction, không thay thế dữ liệu operating chính thức.</span></div></div>
+          <div class="src-tier"><div class="tier t4">TIER 4</div><div><b>Chưa công bố / cần cập nhật</b><br><span class="mini">Giữ trống hoặc ghi rõ "chưa công bố", không suy diễn để lấp dashboard.</span></div></div>
+        </div>
+        <div id="dataQualityCards" class="grid g2" style="margin-top:14px"></div>
+        <div class="sec tablewrap">
+          <table>
+            <thead><tr><th>Mã</th><th>File nguồn</th><th>Dùng cho</th><th>Data quality</th></tr></thead>
+            <tbody id="sourceBody"></tbody>
+          </table>
+        </div>
+        <div class="sec insight r"><b>Những gì cố ý không điền:</b> QNS live quote (Yahoo không trả mã UPCoM); TTĐB rate schedule cụ thể (SAB); Sabibeco capacity/volume tuyệt đối; sensitivity định lượng cho kịch bản CBPG/CTC không gia hạn (QNS). "Không biết" ở đây là một trạng thái dữ liệu, không phải lỗi giao diện.</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
