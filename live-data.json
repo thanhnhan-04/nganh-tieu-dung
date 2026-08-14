@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-14 16:11:57 UTC",
+  "generatedAt": "2026-08-14 17:24:29 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
       "price": 61600.0,
       "change": 5600.0,
       "changePct": 0.1,
-      "volume": 4230453,
+      "volume": 4257000,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-08-14",
+      "timestamp": "2026-08-13",
       "history": [
         {
           "date": "2026-07-14",
@@ -125,11 +125,6 @@
           "date": "2026-08-13",
           "close": 61600.0,
           "volume": 4257000
-        },
-        {
-          "date": "2026-08-14",
-          "close": 61600.0,
-          "volume": 4230453
         }
       ],
       "source": "Yahoo Finance chart",
@@ -138,13 +133,13 @@
     },
     "MCM": {
       "symbol": "MCM.VN",
-      "price": 26000.0,
-      "change": -2700.0,
-      "changePct": -0.094077,
-      "volume": 12301,
+      "price": 25950.0,
+      "change": -2750.0,
+      "changePct": -0.095819,
+      "volume": 52900,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-08-14",
+      "timestamp": "2026-08-13",
       "history": [
         {
           "date": "2026-07-14",
@@ -260,11 +255,6 @@
           "date": "2026-08-13",
           "close": 25950.0,
           "volume": 52900
-        },
-        {
-          "date": "2026-08-14",
-          "close": 26000.0,
-          "volume": 12301
         }
       ],
       "source": "Yahoo Finance chart",
@@ -281,13 +271,13 @@
     },
     "SAB": {
       "symbol": "SAB.VN",
-      "price": 45300.0,
-      "change": -1500.0,
-      "changePct": -0.032051,
-      "volume": 833912,
+      "price": 45850.0,
+      "change": -950.0,
+      "changePct": -0.020299,
+      "volume": 687300,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-08-14",
+      "timestamp": "2026-08-13",
       "history": [
         {
           "date": "2026-07-14",
@@ -403,11 +393,6 @@
           "date": "2026-08-13",
           "close": 45850.0,
           "volume": 687300
-        },
-        {
-          "date": "2026-08-14",
-          "close": 45300.0,
-          "volume": 833912
         }
       ],
       "source": "Yahoo Finance chart",
@@ -418,10 +403,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 17.53,
-      "change": 0.57,
-      "changePct": 0.033608,
-      "volume": 392,
+      "price": 17.39,
+      "change": 0.43,
+      "changePct": 0.025354,
+      "volume": 588,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-14",
@@ -573,8 +558,8 @@
         },
         {
           "date": "2026-08-14",
-          "close": 17.53,
-          "volume": 392
+          "close": 17.39,
+          "volume": 588
         }
       ],
       "source": "Yahoo Finance chart",
@@ -583,10 +568,10 @@
     },
     "sugar": {
       "symbol": "SB=F",
-      "price": 16.57,
-      "change": 1.58,
-      "changePct": 0.105404,
-      "volume": 63554,
+      "price": 16.6,
+      "change": 1.61,
+      "changePct": 0.107405,
+      "volume": 80211,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-14",
@@ -738,8 +723,8 @@
         },
         {
           "date": "2026-08-14",
-          "close": 16.57,
-          "volume": 63554
+          "close": 16.6,
+          "volume": 80211
         }
       ],
       "source": "Yahoo Finance chart",
@@ -751,7 +736,7 @@
       "price": 1186.0,
       "change": 11.5,
       "changePct": 0.009791,
-      "volume": 62604,
+      "volume": 73626,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-14",
@@ -904,7 +889,7 @@
         {
           "date": "2026-08-14",
           "close": 1186.0,
-          "volume": 62604
+          "volume": 73626
         }
       ],
       "source": "Yahoo Finance chart",
@@ -916,7 +901,7 @@
       "price": 3400.25,
       "change": -491.75,
       "changePct": -0.126349,
-      "volume": 112,
+      "volume": 123,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-14",
@@ -1069,7 +1054,7 @@
         {
           "date": "2026-08-14",
           "close": 3400.25,
-          "volume": 112
+          "volume": 123
         }
       ],
       "source": "Yahoo Finance chart",
