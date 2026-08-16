@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-16 02:15:42 UTC",
+  "generatedAt": "2026-08-16 03:25:31 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
       "price": 61600.0,
       "change": 5600.0,
       "changePct": 0.1,
-      "volume": 0,
+      "volume": 3663300,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-08-14",
@@ -43,8 +43,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 58400.0,
-          "volume": 0
+          "close": 59100.0,
+          "volume": 10506300
         },
         {
           "date": "2026-07-23",
@@ -129,7 +129,7 @@
         {
           "date": "2026-08-14",
           "close": 61600.0,
-          "volume": 0
+          "volume": 3663300
         }
       ],
       "source": "Yahoo Finance chart",
@@ -178,8 +178,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 27350.0,
-          "volume": 0
+          "close": 27000.0,
+          "volume": 39800
         },
         {
           "date": "2026-07-23",
