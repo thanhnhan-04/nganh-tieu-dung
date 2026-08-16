@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16 11:11:45 UTC",
+  "generatedAt": "2026-08-16 11:42:01 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -484,7 +484,7 @@
         {
           "date": "2026-07-21",
           "close": 15.74,
-          "volume": 46
+          "volume": 19
         },
         {
           "date": "2026-07-22",
@@ -751,7 +751,7 @@
       "price": 1192.5,
       "change": 15.5,
       "changePct": 0.013169,
-      "volume": 92880,
+      "volume": 92879,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-14",
@@ -904,7 +904,7 @@
         {
           "date": "2026-08-14",
           "close": 1192.5,
-          "volume": 92880
+          "volume": 92879
         }
       ],
       "source": "Yahoo Finance chart",
