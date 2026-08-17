@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17 18:24:50 UTC",
+  "generatedAt": "2026-08-17 19:06:20 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -376,7 +376,7 @@
       "price": 17.28,
       "change": 0.33,
       "changePct": 0.019469,
-      "volume": 570,
+      "volume": 648,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-17",
@@ -529,7 +529,7 @@
         {
           "date": "2026-08-17",
           "close": 17.28,
-          "volume": 570
+          "volume": 648
         }
       ],
       "source": "Yahoo Finance chart",
@@ -703,10 +703,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1215.5,
-      "change": 2.5,
-      "changePct": 0.002061,
-      "volume": 142225,
+      "price": 1216.0,
+      "change": 3.0,
+      "changePct": 0.002473,
+      "volume": 147679,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-17",
@@ -858,8 +858,8 @@
         },
         {
           "date": "2026-08-17",
-          "close": 1215.5,
-          "volume": 142225
+          "close": 1216.0,
+          "volume": 147679
         }
       ],
       "source": "Yahoo Finance chart",
@@ -871,7 +871,7 @@
       "price": 3420.75,
       "change": -429.25,
       "changePct": -0.111494,
-      "volume": 97,
+      "volume": 113,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-17",
@@ -1024,7 +1024,7 @@
         {
           "date": "2026-08-17",
           "close": 3420.75,
-          "volume": 97
+          "volume": 113
         }
       ],
       "source": "Yahoo Finance chart",
