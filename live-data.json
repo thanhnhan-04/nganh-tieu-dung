@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17 19:48:37 UTC",
+  "generatedAt": "2026-08-17 20:16:01 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -1042,11 +1042,6 @@
       "timestamp": "2026-08-17",
       "history": [
         {
-          "date": "2026-07-06",
-          "close": 26299.0,
-          "volume": 0
-        },
-        {
           "date": "2026-07-07",
           "close": 26289.0,
           "volume": 0
@@ -1184,6 +1179,11 @@
         {
           "date": "2026-08-13",
           "close": 26070.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-08-16",
+          "close": 26147.0,
           "volume": 0
         },
         {
