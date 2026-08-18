@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18 10:21:23 UTC",
+  "generatedAt": "2026-08-18 10:53:20 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -444,7 +444,7 @@
         {
           "date": "2026-07-21",
           "close": 15.74,
-          "volume": 46
+          "volume": 19
         },
         {
           "date": "2026-07-22",
@@ -553,10 +553,10 @@
     },
     "sugar": {
       "symbol": "SB=F",
-      "price": 17.22,
-      "change": 2.49,
-      "changePct": 0.169043,
-      "volume": 28774,
+      "price": 17.44,
+      "change": 2.71,
+      "changePct": 0.183978,
+      "volume": 42030,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-18",
@@ -708,8 +708,8 @@
         },
         {
           "date": "2026-08-18",
-          "close": 17.22,
-          "volume": 28774
+          "close": 17.44,
+          "volume": 42030
         }
       ],
       "source": "Yahoo Finance chart",
@@ -718,10 +718,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1225.0,
-      "change": 12.0,
-      "changePct": 0.009893,
-      "volume": 22439,
+      "price": 1224.25,
+      "change": 11.25,
+      "changePct": 0.009275,
+      "volume": 25451,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-18",
@@ -873,8 +873,8 @@
         },
         {
           "date": "2026-08-18",
-          "close": 1225.0,
-          "volume": 22439
+          "close": 1224.25,
+          "volume": 25451
         }
       ],
       "source": "Yahoo Finance chart",
@@ -883,10 +883,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3383.5,
-      "change": -466.5,
-      "changePct": -0.121169,
-      "volume": 40,
+      "price": 3381.0,
+      "change": -469.0,
+      "changePct": -0.121818,
+      "volume": 42,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-18",
@@ -1038,8 +1038,8 @@
         },
         {
           "date": "2026-08-18",
-          "close": 3383.5,
-          "volume": 40
+          "close": 3381.0,
+          "volume": 42
         }
       ],
       "source": "Yahoo Finance chart",
