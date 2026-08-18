@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18 22:12:51 UTC",
+  "generatedAt": "2026-08-18 22:47:42 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -23,8 +23,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 58400.0,
-          "volume": 0
+          "close": 59100.0,
+          "volume": 10506300
         },
         {
           "date": "2026-07-23",
@@ -109,7 +109,7 @@
         {
           "date": "2026-08-14",
           "close": 61600.0,
-          "volume": 0
+          "volume": 3663300
         },
         {
           "date": "2026-08-17",
@@ -281,8 +281,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 47000.0,
-          "volume": 0
+          "close": 46950.0,
+          "volume": 518500
         },
         {
           "date": "2026-07-23",
@@ -366,8 +366,8 @@
         },
         {
           "date": "2026-08-14",
-          "close": 45850.0,
-          "volume": 0
+          "close": 45300.0,
+          "volume": 812400
         },
         {
           "date": "2026-08-17",
@@ -721,7 +721,7 @@
       "price": 1215.25,
       "change": 2.25,
       "changePct": 0.001855,
-      "volume": 162610,
+      "volume": 162611,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-18",
@@ -874,7 +874,7 @@
         {
           "date": "2026-08-18",
           "close": 1215.25,
-          "volume": 162610
+          "volume": 162611
         }
       ],
       "source": "Yahoo Finance chart",
@@ -883,10 +883,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3348.0,
-      "change": -502.0,
-      "changePct": -0.13039,
-      "volume": 1,
+      "price": 3343.0,
+      "change": -507.0,
+      "changePct": -0.131688,
+      "volume": 2,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-18",
@@ -1038,8 +1038,8 @@
         },
         {
           "date": "2026-08-18",
-          "close": 3348.0,
-          "volume": 1
+          "close": 3343.0,
+          "volume": 2
         }
       ],
       "source": "Yahoo Finance chart",
