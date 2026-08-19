@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19 17:18:32 UTC",
+  "generatedAt": "2026-08-19 17:47:49 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -23,8 +23,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 58400.0,
-          "volume": 0
+          "close": 59100.0,
+          "volume": 10506300
         },
         {
           "date": "2026-07-23",
@@ -109,7 +109,7 @@
         {
           "date": "2026-08-14",
           "close": 61600.0,
-          "volume": 0
+          "volume": 3663300
         },
         {
           "date": "2026-08-17",
@@ -148,8 +148,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 27350.0,
-          "volume": 0
+          "close": 27000.0,
+          "volume": 39800
         },
         {
           "date": "2026-07-23",
@@ -281,8 +281,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 47000.0,
-          "volume": 0
+          "close": 46950.0,
+          "volume": 518500
         },
         {
           "date": "2026-07-23",
@@ -366,8 +366,8 @@
         },
         {
           "date": "2026-08-14",
-          "close": 45850.0,
-          "volume": 0
+          "close": 45300.0,
+          "volume": 812400
         },
         {
           "date": "2026-08-17",
@@ -391,7 +391,7 @@
       "price": 17.16,
       "change": 0.22,
       "changePct": 0.012987,
-      "volume": 470,
+      "volume": 477,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-19",
@@ -439,7 +439,7 @@
         {
           "date": "2026-07-21",
           "close": 15.74,
-          "volume": 19
+          "volume": 46
         },
         {
           "date": "2026-07-22",
@@ -544,7 +544,7 @@
         {
           "date": "2026-08-19",
           "close": 17.16,
-          "volume": 470
+          "volume": 477
         }
       ],
       "source": "Yahoo Finance chart",
@@ -556,7 +556,7 @@
       "price": 17.56,
       "change": 2.55,
       "changePct": 0.169887,
-      "volume": 98883,
+      "volume": 102926,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-19",
@@ -709,7 +709,7 @@
         {
           "date": "2026-08-19",
           "close": 17.56,
-          "volume": 98883
+          "volume": 102926
         }
       ],
       "source": "Yahoo Finance chart",
@@ -718,10 +718,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1233.0,
-      "change": 23.5,
-      "changePct": 0.01943,
-      "volume": 137977,
+      "price": 1235.25,
+      "change": 25.75,
+      "changePct": 0.02129,
+      "volume": 146911,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-19",
@@ -873,8 +873,8 @@
         },
         {
           "date": "2026-08-19",
-          "close": 1233.0,
-          "volume": 137977
+          "close": 1235.25,
+          "volume": 146911
         }
       ],
       "source": "Yahoo Finance chart",
@@ -883,10 +883,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3387.25,
-      "change": -486.75,
-      "changePct": -0.125645,
-      "volume": 72,
+      "price": 3389.25,
+      "change": -484.75,
+      "changePct": -0.125129,
+      "volume": 76,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-19",
@@ -1038,8 +1038,8 @@
         },
         {
           "date": "2026-08-19",
-          "close": 3387.25,
-          "volume": 72
+          "close": 3389.25,
+          "volume": 76
         }
       ],
       "source": "Yahoo Finance chart",
