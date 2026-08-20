@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20 11:19:54 UTC",
+  "generatedAt": "2026-08-20 11:50:08 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -158,8 +158,8 @@
         },
         {
           "date": "2026-07-22",
-          "close": 27000.0,
-          "volume": 39800
+          "close": 27350.0,
+          "volume": 0
         },
         {
           "date": "2026-07-23",
@@ -421,7 +421,7 @@
       "price": 16.65,
       "change": -0.28,
       "changePct": -0.016539,
-      "volume": 113,
+      "volume": 116,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-20",
@@ -464,7 +464,7 @@
         {
           "date": "2026-07-21",
           "close": 15.74,
-          "volume": 46
+          "volume": 19
         },
         {
           "date": "2026-07-22",
@@ -574,7 +574,7 @@
         {
           "date": "2026-08-20",
           "close": 16.65,
-          "volume": 113
+          "volume": 116
         }
       ],
       "source": "Yahoo Finance chart",
@@ -583,10 +583,10 @@
     },
     "sugar": {
       "symbol": "SB=F",
-      "price": 17.72,
-      "change": 2.99,
-      "changePct": 0.202987,
-      "volume": 36245,
+      "price": 17.76,
+      "change": 3.03,
+      "changePct": 0.205703,
+      "volume": 38741,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-20",
@@ -738,8 +738,8 @@
         },
         {
           "date": "2026-08-20",
-          "close": 17.72,
-          "volume": 36245
+          "close": 17.76,
+          "volume": 38741
         }
       ],
       "source": "Yahoo Finance chart",
@@ -748,10 +748,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1240.25,
-      "change": 40.5,
-      "changePct": 0.033757,
-      "volume": 43054,
+      "price": 1240.5,
+      "change": 40.75,
+      "changePct": 0.033965,
+      "volume": 43864,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-20",
@@ -903,8 +903,8 @@
         },
         {
           "date": "2026-08-20",
-          "close": 1240.25,
-          "volume": 43054
+          "close": 1240.5,
+          "volume": 43864
         }
       ],
       "source": "Yahoo Finance chart",
