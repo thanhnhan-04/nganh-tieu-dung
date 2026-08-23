@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23 13:51:05 UTC",
+  "generatedAt": "2026-08-23 14:14:01 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -1084,7 +1084,7 @@
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
-      "timestamp": "2026-08-21",
+      "timestamp": "2026-08-23",
       "history": [
         {
           "date": "2026-07-13",
@@ -1232,7 +1232,7 @@
           "volume": 0
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-23",
           "close": 26113.0,
           "volume": 0
         }
