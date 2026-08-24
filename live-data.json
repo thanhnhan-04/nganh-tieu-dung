@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24 23:15:00 UTC",
+  "generatedAt": "2026-08-24 23:43:27 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -556,7 +556,7 @@
       "price": 17.66,
       "change": 3.12,
       "changePct": 0.21458,
-      "volume": 91649,
+      "volume": 0,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-24",
@@ -709,7 +709,7 @@
         {
           "date": "2026-08-24",
           "close": 17.66,
-          "volume": 91649
+          "volume": 0
         }
       ],
       "source": "Yahoo Finance chart",
