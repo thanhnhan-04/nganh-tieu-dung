@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24 20:19:21 UTC",
+  "generatedAt": "2026-08-24 20:55:43 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -373,10 +373,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.42,
-      "change": -0.49,
-      "changePct": -0.028977,
-      "volume": 1179,
+      "price": 16.38,
+      "change": -0.53,
+      "changePct": -0.031342,
+      "volume": 1194,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-24",
@@ -528,8 +528,8 @@
         },
         {
           "date": "2026-08-24",
-          "close": 16.42,
-          "volume": 1179
+          "close": 16.38,
+          "volume": 1194
         }
       ],
       "source": "Yahoo Finance chart",
