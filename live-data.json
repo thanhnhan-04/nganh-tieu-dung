@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24 22:50:19 UTC",
+  "generatedAt": "2026-08-24 23:15:00 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -883,10 +883,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3391.0,
-      "change": -655.0,
-      "changePct": -0.161888,
-      "volume": 5,
+      "price": 3401.75,
+      "change": -644.25,
+      "changePct": -0.159231,
+      "volume": 7,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-24",
@@ -1038,8 +1038,8 @@
         },
         {
           "date": "2026-08-24",
-          "close": 3391.0,
-          "volume": 5
+          "close": 3401.75,
+          "volume": 7
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1048,14 +1048,19 @@
     },
     "fx": {
       "symbol": "VND=X",
-      "price": 26172.0,
-      "change": -178.0,
-      "changePct": -0.006755,
+      "price": 26110.0,
+      "change": -230.0,
+      "changePct": -0.008732,
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
-      "timestamp": "2026-08-24",
+      "timestamp": "2026-08-23",
       "history": [
+        {
+          "date": "2026-07-13",
+          "close": 26250.0,
+          "volume": 0
+        },
         {
           "date": "2026-07-14",
           "close": 26259.0,
@@ -1199,11 +1204,6 @@
         {
           "date": "2026-08-23",
           "close": 26110.0,
-          "volume": 0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 26172.0,
           "volume": 0
         }
       ],
