@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24 18:26:41 UTC",
+  "generatedAt": "2026-08-24 19:09:26 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -373,10 +373,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.47,
-      "change": -0.44,
-      "changePct": -0.02602,
-      "volume": 1120,
+      "price": 16.44,
+      "change": -0.47,
+      "changePct": -0.027794,
+      "volume": 1125,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-24",
@@ -528,8 +528,8 @@
         },
         {
           "date": "2026-08-24",
-          "close": 16.47,
-          "volume": 1120
+          "close": 16.44,
+          "volume": 1125
         }
       ],
       "source": "Yahoo Finance chart",
@@ -703,10 +703,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1224.25,
-      "change": 38.25,
-      "changePct": 0.032251,
-      "volume": 188631,
+      "price": 1225.5,
+      "change": 39.5,
+      "changePct": 0.033305,
+      "volume": 190237,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-24",
@@ -858,8 +858,8 @@
         },
         {
           "date": "2026-08-24",
-          "close": 1224.25,
-          "volume": 188631
+          "close": 1225.5,
+          "volume": 190237
         }
       ],
       "source": "Yahoo Finance chart",
