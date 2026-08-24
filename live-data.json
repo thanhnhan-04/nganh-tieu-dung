@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23 23:42:20 UTC",
+  "generatedAt": "2026-08-24 00:43:29 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -418,19 +418,14 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.95,
-      "change": 0.03,
-      "changePct": 0.001773,
-      "volume": 836,
+      "price": 16.96,
+      "change": 0.04,
+      "changePct": 0.002364,
+      "volume": 4,
       "currency": "USD",
       "exchange": "CME",
-      "timestamp": "2026-08-21",
+      "timestamp": "2026-08-24",
       "history": [
-        {
-          "date": "2026-07-13",
-          "close": 15.77,
-          "volume": 414
-        },
         {
           "date": "2026-07-14",
           "close": 15.76,
@@ -573,8 +568,13 @@
         },
         {
           "date": "2026-08-21",
-          "close": 16.95,
-          "volume": 836
+          "close": 16.64,
+          "volume": 216
+        },
+        {
+          "date": "2026-08-24",
+          "close": 16.96,
+          "volume": 4
         }
       ],
       "source": "Yahoo Finance chart",
@@ -748,19 +748,14 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1239.5,
-      "change": 43.0,
-      "changePct": 0.035938,
-      "volume": 153958,
+      "price": 1233.5,
+      "change": 37.0,
+      "changePct": 0.030924,
+      "volume": 11820,
       "currency": "USX",
       "exchange": "CBT",
-      "timestamp": "2026-08-21",
+      "timestamp": "2026-08-24",
       "history": [
-        {
-          "date": "2026-07-13",
-          "close": 1202.0,
-          "volume": 63
-        },
         {
           "date": "2026-07-14",
           "close": 1207.25,
@@ -903,8 +898,13 @@
         },
         {
           "date": "2026-08-21",
-          "close": 1239.5,
-          "volume": 153958
+          "close": 1225.0,
+          "volume": 21217
+        },
+        {
+          "date": "2026-08-24",
+          "close": 1233.5,
+          "volume": 11820
         }
       ],
       "source": "Yahoo Finance chart",
