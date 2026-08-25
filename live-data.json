@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24 23:43:27 UTC",
+  "generatedAt": "2026-08-25 00:42:30 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -718,13 +718,13 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1225.5,
-      "change": 39.5,
-      "changePct": 0.033305,
-      "volume": 190237,
+      "price": 1224.75,
+      "change": 38.75,
+      "changePct": 0.032673,
+      "volume": 4208,
       "currency": "USX",
       "exchange": "CBT",
-      "timestamp": "2026-08-24",
+      "timestamp": "2026-08-25",
       "history": [
         {
           "date": "2026-07-14",
@@ -872,9 +872,9 @@
           "volume": 21217
         },
         {
-          "date": "2026-08-24",
-          "close": 1225.5,
-          "volume": 190237
+          "date": "2026-08-25",
+          "close": 1224.75,
+          "volume": 4208
         }
       ],
       "source": "Yahoo Finance chart",
