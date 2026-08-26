@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-26 05:57:18 UTC",
+  "generatedAt": "2026-08-26 06:42:13 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
-      "price": 62900.0,
-      "change": 4000.0,
-      "changePct": 0.067912,
-      "volume": 977980,
+      "price": 62800.0,
+      "change": 3900.0,
+      "changePct": 0.066214,
+      "volume": 1162797,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-08-26",
@@ -123,8 +123,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 62900.0,
-          "volume": 977980
+          "close": 62800.0,
+          "volume": 1162797
         }
       ],
       "source": "Yahoo Finance chart",
@@ -136,7 +136,7 @@
       "price": 26600.0,
       "change": -200.0,
       "changePct": -0.007463,
-      "volume": 569,
+      "volume": 3096,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-08-26",
@@ -254,7 +254,7 @@
         {
           "date": "2026-08-26",
           "close": 26600.0,
-          "volume": 569
+          "volume": 3096
         }
       ],
       "source": "Yahoo Finance chart",
@@ -271,10 +271,10 @@
     },
     "SAB": {
       "symbol": "SAB.VN",
-      "price": 46100.0,
-      "change": -400.0,
-      "changePct": -0.008602,
-      "volume": 185400,
+      "price": 46050.0,
+      "change": -450.0,
+      "changePct": -0.009677,
+      "volume": 374046,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-08-26",
@@ -391,8 +391,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 46100.0,
-          "volume": 185400
+          "close": 46050.0,
+          "volume": 374046
         }
       ],
       "source": "Yahoo Finance chart",
@@ -733,10 +733,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1242.5,
-      "change": 56.5,
-      "changePct": 0.047639,
-      "volume": 10382,
+      "price": 1241.0,
+      "change": 55.0,
+      "changePct": 0.046374,
+      "volume": 13606,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-26",
@@ -888,8 +888,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 1242.5,
-          "volume": 10382
+          "close": 1241.0,
+          "volume": 13606
         }
       ],
       "source": "Yahoo Finance chart",
