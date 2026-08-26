@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26 08:31:54 UTC",
+  "generatedAt": "2026-08-26 09:31:27 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -403,19 +403,14 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.61,
-      "change": -0.3,
-      "changePct": -0.017741,
-      "volume": 252,
+      "price": 16.44,
+      "change": -0.47,
+      "changePct": -0.027794,
+      "volume": 22,
       "currency": "USD",
       "exchange": "CME",
-      "timestamp": "2026-08-25",
+      "timestamp": "2026-08-26",
       "history": [
-        {
-          "date": "2026-07-15",
-          "close": 15.76,
-          "volume": 219
-        },
         {
           "date": "2026-07-16",
           "close": 15.76,
@@ -560,6 +555,11 @@
           "date": "2026-08-25",
           "close": 16.61,
           "volume": 252
+        },
+        {
+          "date": "2026-08-26",
+          "close": 16.44,
+          "volume": 22
         }
       ],
       "source": "Yahoo Finance chart",
@@ -571,7 +571,7 @@
       "price": 17.28,
       "change": 2.74,
       "changePct": 0.188446,
-      "volume": 5238,
+      "volume": 7825,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-08-26",
@@ -724,7 +724,7 @@
         {
           "date": "2026-08-26",
           "close": 17.28,
-          "volume": 5238
+          "volume": 7825
         }
       ],
       "source": "Yahoo Finance chart",
@@ -733,10 +733,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1241.5,
-      "change": 55.5,
-      "changePct": 0.046796,
-      "volume": 19414,
+      "price": 1241.75,
+      "change": 55.75,
+      "changePct": 0.047007,
+      "volume": 21200,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-26",
@@ -888,8 +888,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 1241.5,
-          "volume": 19414
+          "close": 1241.75,
+          "volume": 21200
         }
       ],
       "source": "Yahoo Finance chart",
@@ -898,10 +898,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3383.75,
-      "change": -662.25,
-      "changePct": -0.16368,
-      "volume": 8,
+      "price": 3397.0,
+      "change": -649.0,
+      "changePct": -0.160405,
+      "volume": 13,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-26",
@@ -1053,8 +1053,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 3383.75,
-          "volume": 8
+          "close": 3397.0,
+          "volume": 13
         }
       ],
       "source": "Yahoo Finance chart",
