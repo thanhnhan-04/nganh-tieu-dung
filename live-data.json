@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26 18:10:55 UTC",
+  "generatedAt": "2026-08-26 20:22:49 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -388,10 +388,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.75,
-      "change": -0.16,
-      "changePct": -0.009462,
-      "volume": 976,
+      "price": 16.94,
+      "change": 0.03,
+      "changePct": 0.001774,
+      "volume": 1100,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-08-26",
@@ -543,8 +543,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 16.75,
-          "volume": 976
+          "close": 16.94,
+          "volume": 1100
         }
       ],
       "source": "Yahoo Finance chart",
@@ -718,10 +718,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1268.5,
-      "change": 82.5,
-      "changePct": 0.069562,
-      "volume": 153007,
+      "price": 1261.5,
+      "change": 75.5,
+      "changePct": 0.063659,
+      "volume": 175914,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-08-26",
@@ -873,8 +873,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 1268.5,
-          "volume": 153007
+          "close": 1261.5,
+          "volume": 175914
         }
       ],
       "source": "Yahoo Finance chart",
@@ -883,10 +883,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3384.75,
-      "change": -661.25,
-      "changePct": -0.163433,
-      "volume": 52,
+      "price": 3398.0,
+      "change": -648.0,
+      "changePct": -0.160158,
+      "volume": 54,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-08-26",
@@ -1038,8 +1038,8 @@
         },
         {
           "date": "2026-08-26",
-          "close": 3384.75,
-          "volume": 52
+          "close": 3398.0,
+          "volume": 54
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1056,11 +1056,6 @@
       "exchange": "CCY",
       "timestamp": "2026-08-26",
       "history": [
-        {
-          "date": "2026-07-15",
-          "close": 26254.0,
-          "volume": 0
-        },
         {
           "date": "2026-07-16",
           "close": 26251.0,
@@ -1199,6 +1194,11 @@
         {
           "date": "2026-08-24",
           "close": 26172.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-08-25",
+          "close": 26109.0,
           "volume": 0
         },
         {
