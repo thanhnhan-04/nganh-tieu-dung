@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-04 21:57:17 UTC",
+  "generatedAt": "2026-09-04 23:41:25 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
-      "price": 61200.0,
-      "change": 1700.0,
-      "changePct": 0.028571,
-      "volume": 0,
+      "price": 61900.0,
+      "change": 2400.0,
+      "changePct": 0.040336,
+      "volume": 1906600,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-04",
@@ -128,8 +128,8 @@
         },
         {
           "date": "2026-09-04",
-          "close": 61200.0,
-          "volume": 0
+          "close": 61900.0,
+          "volume": 1906600
         }
       ],
       "source": "Yahoo Finance chart",
@@ -138,10 +138,10 @@
     },
     "MCM": {
       "symbol": "MCM.VN",
-      "price": 26550.0,
-      "change": 150.0,
-      "changePct": 0.005682,
-      "volume": 0,
+      "price": 26800.0,
+      "change": 400.0,
+      "changePct": 0.015152,
+      "volume": 38900,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-04",
@@ -263,8 +263,8 @@
         },
         {
           "date": "2026-09-04",
-          "close": 26550.0,
-          "volume": 0
+          "close": 26800.0,
+          "volume": 38900
         }
       ],
       "source": "Yahoo Finance chart",
@@ -281,10 +281,10 @@
     },
     "SAB": {
       "symbol": "SAB.VN",
-      "price": 45000.0,
-      "change": -100.0,
-      "changePct": -0.002217,
-      "volume": 0,
+      "price": 45350.0,
+      "change": 250.0,
+      "changePct": 0.005543,
+      "volume": 352900,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-04",
@@ -406,8 +406,8 @@
         },
         {
           "date": "2026-09-04",
-          "close": 45000.0,
-          "volume": 0
+          "close": 45350.0,
+          "volume": 352900
         }
       ],
       "source": "Yahoo Finance chart",
