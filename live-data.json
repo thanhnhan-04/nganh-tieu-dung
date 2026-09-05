@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05 11:19:16 UTC",
+  "generatedAt": "2026-09-05 13:56:09 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -569,7 +569,7 @@
         {
           "date": "2026-09-03",
           "close": 16.33,
-          "volume": 646
+          "volume": 454
         },
         {
           "date": "2026-09-04",
