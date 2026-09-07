@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06 22:34:11 UTC",
+  "generatedAt": "2026-09-07 00:30:24 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -569,7 +569,7 @@
         {
           "date": "2026-09-03",
           "close": 16.33,
-          "volume": 454
+          "volume": 646
         },
         {
           "date": "2026-09-04",
@@ -916,10 +916,10 @@
       "price": 3473.25,
       "change": -477.0,
       "changePct": -0.120752,
-      "volume": 3,
+      "volume": 14,
       "currency": "USD",
       "exchange": "CMX",
-      "timestamp": "2026-09-06",
+      "timestamp": "2026-09-07",
       "history": [
         {
           "date": "2026-07-28",
@@ -1067,9 +1067,9 @@
           "volume": 0
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "close": 3473.25,
-          "volume": 3
+          "volume": 14
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1079,12 +1079,12 @@
     "fx": {
       "symbol": "VND=X",
       "price": 26054.0,
-      "change": -236.0,
-      "changePct": -0.008977,
+      "change": -221.0,
+      "changePct": -0.008411,
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
-      "timestamp": "2026-09-06",
+      "timestamp": "2026-09-07",
       "history": [
         {
           "date": "2026-07-27",
@@ -1232,7 +1232,7 @@
           "volume": 0
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-07",
           "close": 26054.0,
           "volume": 0
         }
