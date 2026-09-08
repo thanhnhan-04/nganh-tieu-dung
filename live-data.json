@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-08 17:58:24 UTC",
+  "generatedAt": "2026-09-08 20:46:41 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
       "price": 60700.0,
       "change": -1300.0,
       "changePct": -0.020968,
-      "volume": 3004700,
+      "volume": 0,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-09-07",
+      "timestamp": "2026-09-08",
       "history": [
         {
           "date": "2026-08-10",
@@ -115,6 +115,11 @@
           "date": "2026-09-07",
           "close": 60700.0,
           "volume": 3004700
+        },
+        {
+          "date": "2026-09-08",
+          "close": 60700.0,
+          "volume": 0
         }
       ],
       "source": "Yahoo Finance chart",
@@ -126,10 +131,10 @@
       "price": 26700.0,
       "change": 200.0,
       "changePct": 0.007547,
-      "volume": 16500,
+      "volume": 0,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-09-07",
+      "timestamp": "2026-09-08",
       "history": [
         {
           "date": "2026-08-10",
@@ -235,6 +240,11 @@
           "date": "2026-09-07",
           "close": 26700.0,
           "volume": 16500
+        },
+        {
+          "date": "2026-09-08",
+          "close": 26700.0,
+          "volume": 0
         }
       ],
       "source": "Yahoo Finance chart",
@@ -254,10 +264,10 @@
       "price": 44850.0,
       "change": 100.0,
       "changePct": 0.002235,
-      "volume": 378700,
+      "volume": 0,
       "currency": "VND",
       "exchange": "VSE",
-      "timestamp": "2026-09-07",
+      "timestamp": "2026-09-08",
       "history": [
         {
           "date": "2026-08-10",
@@ -363,6 +373,11 @@
           "date": "2026-09-07",
           "close": 44850.0,
           "volume": 378700
+        },
+        {
+          "date": "2026-09-08",
+          "close": 44850.0,
+          "volume": 0
         }
       ],
       "source": "Yahoo Finance chart",
@@ -373,10 +388,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 16.15,
-      "change": 0.04,
-      "changePct": 0.002483,
-      "volume": 552,
+      "price": 16.29,
+      "change": 0.18,
+      "changePct": 0.011173,
+      "volume": 762,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-09-08",
@@ -528,8 +543,8 @@
         },
         {
           "date": "2026-09-08",
-          "close": 16.15,
-          "volume": 552
+          "close": 16.29,
+          "volume": 762
         }
       ],
       "source": "Yahoo Finance chart",
@@ -703,10 +718,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1312.75,
-      "change": 197.0,
-      "changePct": 0.176563,
-      "volume": 110966,
+      "price": 1316.75,
+      "change": 201.0,
+      "changePct": 0.180148,
+      "volume": 126269,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-09-08",
@@ -858,8 +873,8 @@
         },
         {
           "date": "2026-09-08",
-          "close": 1312.75,
-          "volume": 110966
+          "close": 1316.75,
+          "volume": 126269
         }
       ],
       "source": "Yahoo Finance chart",
@@ -871,7 +886,7 @@
       "price": 3522.5,
       "change": -431.0,
       "changePct": -0.109017,
-      "volume": 138,
+      "volume": 144,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-09-08",
@@ -1024,7 +1039,7 @@
         {
           "date": "2026-09-08",
           "close": 3522.5,
-          "volume": 138
+          "volume": 144
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1041,11 +1056,6 @@
       "exchange": "CCY",
       "timestamp": "2026-09-08",
       "history": [
-        {
-          "date": "2026-07-28",
-          "close": 26330.0,
-          "volume": 0
-        },
         {
           "date": "2026-07-29",
           "close": 26321.0,
@@ -1184,6 +1194,11 @@
         {
           "date": "2026-09-06",
           "close": 26050.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-09-07",
+          "close": 26015.0,
           "volume": 0
         },
         {
