@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-25 21:43:16 UTC",
+  "generatedAt": "2026-09-26 00:16:01 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
-      "price": 60600.0,
-      "change": -2000.0,
-      "changePct": -0.031949,
-      "volume": 0,
+      "price": 59800.0,
+      "change": -2800.0,
+      "changePct": -0.044728,
+      "volume": 1997600,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-25",
@@ -128,8 +128,8 @@
         },
         {
           "date": "2026-09-25",
-          "close": 60600.0,
-          "volume": 0
+          "close": 59800.0,
+          "volume": 1997600
         }
       ],
       "source": "Yahoo Finance chart",
@@ -138,10 +138,10 @@
     },
     "MCM": {
       "symbol": "MCM.VN",
-      "price": 26500.0,
-      "change": -100.0,
-      "changePct": -0.003759,
-      "volume": 0,
+      "price": 26300.0,
+      "change": -300.0,
+      "changePct": -0.011278,
+      "volume": 14500,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-25",
@@ -263,8 +263,8 @@
         },
         {
           "date": "2026-09-25",
-          "close": 26500.0,
-          "volume": 0
+          "close": 26300.0,
+          "volume": 14500
         }
       ],
       "source": "Yahoo Finance chart",
@@ -281,10 +281,10 @@
     },
     "SAB": {
       "symbol": "SAB.VN",
-      "price": 44150.0,
-      "change": -1950.0,
-      "changePct": -0.042299,
-      "volume": 0,
+      "price": 43900.0,
+      "change": -2200.0,
+      "changePct": -0.047722,
+      "volume": 274700,
       "currency": "VND",
       "exchange": "VSE",
       "timestamp": "2026-09-25",
@@ -406,8 +406,8 @@
         },
         {
           "date": "2026-09-25",
-          "close": 44150.0,
-          "volume": 0
+          "close": 43900.0,
+          "volume": 274700
         }
       ],
       "source": "Yahoo Finance chart",
@@ -499,7 +499,7 @@
         {
           "date": "2026-09-03",
           "close": 16.33,
-          "volume": 646
+          "volume": 454
         },
         {
           "date": "2026-09-04",
