@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27 20:37:13 UTC",
+  "generatedAt": "2026-09-27 23:30:12 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -418,19 +418,14 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 15.86,
-      "change": -0.15,
-      "changePct": -0.009369,
-      "volume": 638,
+      "price": 15.75,
+      "change": -0.26,
+      "changePct": -0.01624,
+      "volume": 11,
       "currency": "USD",
       "exchange": "CME",
-      "timestamp": "2026-09-25",
+      "timestamp": "2026-09-27",
       "history": [
-        {
-          "date": "2026-08-14",
-          "close": 16.54,
-          "volume": 168
-        },
         {
           "date": "2026-08-17",
           "close": 16.5,
@@ -573,8 +568,13 @@
         },
         {
           "date": "2026-09-25",
-          "close": 15.86,
-          "volume": 638
+          "close": 16.12,
+          "volume": 146
+        },
+        {
+          "date": "2026-09-27",
+          "close": 15.75,
+          "volume": 11
         }
       ],
       "source": "Yahoo Finance chart",
@@ -913,19 +913,14 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3465.0,
-      "change": -232.5,
-      "changePct": -0.06288,
-      "volume": 321,
+      "price": 3467.0,
+      "change": -230.5,
+      "changePct": -0.062339,
+      "volume": 11,
       "currency": "USD",
       "exchange": "CMX",
-      "timestamp": "2026-09-25",
+      "timestamp": "2026-09-27",
       "history": [
-        {
-          "date": "2026-08-14",
-          "close": 3355.5,
-          "volume": 0
-        },
         {
           "date": "2026-08-17",
           "close": 3427.25,
@@ -1068,8 +1063,13 @@
         },
         {
           "date": "2026-09-25",
-          "close": 3465.0,
-          "volume": 321
+          "close": 3435.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-09-27",
+          "close": 3467.0,
+          "volume": 11
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1079,8 +1079,8 @@
     "fx": {
       "symbol": "VND=X",
       "price": 25974.0,
-      "change": -356.0,
-      "changePct": -0.013521,
+      "change": -341.0,
+      "changePct": -0.012958,
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
