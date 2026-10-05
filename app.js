@@ -147,7 +147,8 @@ function driversFor(ticker) {
 /* ---------- Tab 1: Key Driver Monitor ---------- */
 
 function renderDrivers() {
-  const liveCards = state.data.drivers.filter(d => d.live);
+  const tickForLive = document.getElementById("tickerFilter")?.value || "";
+  const liveCards = state.data.drivers.filter(d => d.live && (!tickForLive || d.affected.some(a => a.ticker === tickForLive)));
   document.getElementById("liveStrip").innerHTML = liveCards.map(d => {
     const c = commodity(d.live.symbol);
     const up = (c?.changePct || 0) >= 0;
@@ -163,7 +164,7 @@ function renderDrivers() {
 
   const q = (document.getElementById("driverSearch")?.value || "").toLowerCase();
   const cat = document.getElementById("categoryFilter")?.value || "";
-  const tick = document.getElementById("tickerFilter")?.value || "";
+  const tick = tickForLive;
   const rows = state.data.drivers.filter(d => {
     const text = `${d.name} ${d.mechanism} ${d.affected.map(a => a.ticker).join(" ")}`.toLowerCase();
     return (!q || text.includes(q)) && (!cat || d.category === cat) && (!tick || d.affected.some(a => a.ticker === tick));

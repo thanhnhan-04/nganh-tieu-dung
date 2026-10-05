@@ -1,7 +1,6 @@
 {
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-17",
   "note": "Bản rebuild theo hướng driver-centric: driver (biến số vĩ mô/ngành) là đơn vị tổ chức chính, không phải khuyến nghị mua/bán theo mã. Toàn bộ số liệu được trích trực tiếp từ file model/PPT/PDF/BCTC trong từng thư mục công ty, có ghi rõ nguồn và các mâu thuẫn/khoảng trống dữ liệu tìm thấy.",
-
   "companies": [
     {
       "ticker": "VNM",
@@ -9,14 +8,18 @@
       "exchange": "HOSE",
       "sector": "Dairy",
       "subsector": "Dairy platform — nội địa bão hòa, quốc tế là động cơ tăng trưởng mới",
-      "dataAsOf": "Báo cáo FinSuccess, giá tham chiếu 10/02/2026 (~6 tháng trước ngày cut-off dashboard)",
+      "dataAsOf": "Báo cáo FinSuccess, giá tham chiếu 10/02/2026 (~6 tháng trước ngày cut-off dashboard) — đã bổ sung KQKD Q2/H1 2026 thực tế (Vietstock, 31/07/2026, cập nhật đến 17/08/2026).",
       "basePrice": 61600,
       "sharesMn": 2090,
       "targetPrice": 73000,
       "targetPriceNote": "Có 2 target price khác nhau trong cùng bộ hồ sơ: 73,000 VND (shortnote công bố, P/E 15x — 5-year median) vs 67,622 VND (model base case, blend P/E 14x + EV/EBITDA 7x). Không được đối chiếu trong nguồn — dashboard hiển thị số công bố (73,000) làm chính, số model làm tham chiếu phụ.",
       "forwardPe": 12.5,
       "dividendYield": null,
-      "sourceFiles": ["VNM/VNM model_main.xlsx", "VNM/VNM slide.pptx", "VNM/VNM_shortnote.pptx"],
+      "sourceFiles": [
+        "VNM/VNM model_main.xlsx",
+        "VNM/VNM slide.pptx",
+        "VNM/VNM_shortnote.pptx"
+      ],
       "thesis": [
         "Thị trường sữa nội địa đã bước vào giai đoạn bão hòa (doanh thu nội địa đi ngang quanh 50,600–50,900 tỷ VND suốt 5 năm); tăng trưởng phải đến từ mix (Greenfarm +225% YoY 10 tháng đầu, Optimum, sữa hạt) và quốc tế.",
         "Doanh thu quốc tế đã chiếm gần 25% tổng doanh thu 2025 (từ 18–21% giai đoạn 2022–2024); export riêng đặt mục tiêu +15% năm 2026 theo chính VNM tự công bố.",
@@ -27,7 +30,9 @@
         "Tỷ trọng doanh thu nước ngoài và tăng trưởng export/Angkor Milk/Driftwood",
         "BLNG nội địa vs quốc tế theo quý (quốc tế biến động mạnh hơn: 36.4%–43.5% theo quý 2025)",
         "Tiến độ Platinum Victory thoái vốn hoàn toàn 6.02% cổ phần (đăng ký bán 21/02–26/02/2026)",
-        "Vinabeef/Vilico — lỗ ước tính ~139 tỷ VND năm 2025, cần theo dõi đường đến hòa vốn"
+        "Vinabeef/Vilico — lỗ ước tính ~139 tỷ VND năm 2025, cần theo dõi đường đến hòa vốn",
+        "KQKD H1/2026 thực tế VƯỢT XA guidance đầu năm: doanh thu nội địa +12.4% YoY (guidance cả năm chỉ 4-6%), quốc tế +39.1% YoY (guidance cả năm 15%), trong đó export riêng +16.2%. Q2/2026: LNST 3,167-3,184 tỷ (+28-31% YoY), cao nhất hơn 5 năm. Cần theo dõi liệu tốc độ này có duy trì được nửa cuối năm hay là hiệu ứng nền thấp/thời điểm ghi nhận.",
+        "Công ty con nước ngoài (Angkormilk Campuchia, Driftwood Mỹ) đóng góp tích cực vào mức tăng quốc tế +39% — Angkormilk được báo chí nêu tăng trưởng '3 chữ số' trong quý (cafef, 25/07/2026), cần xác minh quy mô tuyệt đối vì nền so sánh nhỏ."
       ],
       "risks": [
         "Nội địa khó tăng hai chữ số do ngành sữa bão hòa; các category mới (nut milk, kem, Greenfarm) vẫn còn nền quá nhỏ để bù đắp.",
@@ -37,55 +42,166 @@
       ],
       "financials": {
         "revenue": [
-          {"period": "2020", "value": 59636.3},
-          {"period": "2021", "value": 60919.2},
-          {"period": "2022", "value": 59956.2},
-          {"period": "2023", "value": 60368.9},
-          {"period": "2024", "value": 61782.6},
-          {"period": "2025", "value": 63645.9},
-          {"period": "2026F", "value": 67490.6}
+          {
+            "period": "2020",
+            "value": 59636.3
+          },
+          {
+            "period": "2021",
+            "value": 60919.2
+          },
+          {
+            "period": "2022",
+            "value": 59956.2
+          },
+          {
+            "period": "2023",
+            "value": 60368.9
+          },
+          {
+            "period": "2024",
+            "value": 61782.6
+          },
+          {
+            "period": "2025",
+            "value": 63645.9
+          },
+          {
+            "period": "2026F",
+            "value": 67490.6
+          }
         ],
         "profit": [
-          {"period": "2020", "value": 11098.9},
-          {"period": "2021", "value": 10532.5},
-          {"period": "2022", "value": 8516.0},
-          {"period": "2023", "value": 8873.8},
-          {"period": "2024", "value": 9392.3},
-          {"period": "2025", "value": 9410.2},
-          {"period": "2026F", "value": 10284.0}
+          {
+            "period": "2020",
+            "value": 11098.9
+          },
+          {
+            "period": "2021",
+            "value": 10532.5
+          },
+          {
+            "period": "2022",
+            "value": 8516.0
+          },
+          {
+            "period": "2023",
+            "value": 8873.8
+          },
+          {
+            "period": "2024",
+            "value": 9392.3
+          },
+          {
+            "period": "2025",
+            "value": 9410.2
+          },
+          {
+            "period": "2026F",
+            "value": 10284.0
+          }
         ],
         "gpm": [
-          {"period": "2020", "value": 0.4640},
-          {"period": "2021", "value": 0.4314},
-          {"period": "2022", "value": 0.3986},
-          {"period": "2023", "value": 0.4066},
-          {"period": "2024", "value": 0.4142},
-          {"period": "2025", "value": 0.4118},
-          {"period": "2026F", "value": 0.4142}
+          {
+            "period": "2020",
+            "value": 0.464
+          },
+          {
+            "period": "2021",
+            "value": 0.4314
+          },
+          {
+            "period": "2022",
+            "value": 0.3986
+          },
+          {
+            "period": "2023",
+            "value": 0.4066
+          },
+          {
+            "period": "2024",
+            "value": 0.4142
+          },
+          {
+            "period": "2025",
+            "value": 0.4118
+          },
+          {
+            "period": "2026F",
+            "value": 0.4142
+          }
         ],
         "revenueMix2026": [
-          {"label": "VNM nội địa", "value": 48300.6},
-          {"label": "MCM", "value": 2862.3},
-          {"label": "Khác nội địa", "value": 2244.0},
-          {"label": "Export", "value": 8170.7},
-          {"label": "Angkor Milk", "value": 3404.2},
-          {"label": "Driftwood", "value": 2508.8}
+          {
+            "label": "VNM nội địa",
+            "value": 48300.6
+          },
+          {
+            "label": "MCM",
+            "value": 2862.3
+          },
+          {
+            "label": "Khác nội địa",
+            "value": 2244.0
+          },
+          {
+            "label": "Export",
+            "value": 8170.7
+          },
+          {
+            "label": "Angkor Milk",
+            "value": 3404.2
+          },
+          {
+            "label": "Driftwood",
+            "value": 2508.8
+          }
         ],
         "growthDrivers": [
-          {"label": "Nội địa", "growth": 0.0479, "revenue2026": 53406.9},
-          {"label": "Nước ngoài", "growth": 0.1106, "revenue2026": 14083.7}
+          {
+            "label": "Nội địa",
+            "growth": 0.0479,
+            "revenue2026": 53406.9
+          },
+          {
+            "label": "Nước ngoài",
+            "growth": 0.1106,
+            "revenue2026": 14083.7
+          }
         ],
         "modelBaseCaseAlt": {
           "note": "Kịch bản Base case tính trực tiếp trong xlsx (khác số đã công bố ở shortnote)",
-          "revenue2026F": 68975.3, "profit2026F": 10433.3, "targetPrice": 67622
+          "revenue2026F": 68975.3,
+          "profit2026F": 10433.3,
+          "targetPrice": 67622
         }
       },
       "catalysts": [
-        {"date": "22/12/2025", "event": "F&N Dairy Investments mua 96.09 triệu cp (4.6%) từ Platinum Victory giá 62,555đ/cp, tổng >6,000 tỷ VND — định giá ngầm VNM ~130,000 tỷ VND", "status": "occurred"},
-        {"date": "21/02/2026 – 26/02/2026", "event": "Platinum Victory đăng ký bán nốt 6.02% cổ phần còn lại (thoái vốn hoàn toàn) — CẦN XÁC MINH kết quả thực tế, nguồn chỉ có đăng ký", "status": "occurred_unverified"},
-        {"date": "Q2/2026", "event": "Hợp đồng sữa bột phần còn lại 2026 phản ánh vào BLNG — xác nhận qua BCTC Q2/Q3", "status": "occurred"},
-        {"date": "Q1/2027", "event": "Nhà máy sữa Hưng Yên dự kiến vận hành (Phase 1, ~2,100 tỷ VND)", "status": "upcoming"},
-        {"date": "2027 / 2030", "event": "Tây Ninh 2 & 3 tăng tự chủ nguyên liệu (Phase 1/Phase 2, ~3,048 tỷ VND)", "status": "upcoming"}
+        {
+          "date": "22/12/2025",
+          "event": "F&N Dairy Investments mua 96.09 triệu cp (4.6%) từ Platinum Victory giá 62,555đ/cp, tổng >6,000 tỷ VND — định giá ngầm VNM ~130,000 tỷ VND",
+          "status": "occurred"
+        },
+        {
+          "date": "21/02/2026 – 26/02/2026",
+          "event": "Platinum Victory đăng ký bán nốt 6.02% cổ phần còn lại (thoái vốn hoàn toàn) — CẦN XÁC MINH kết quả thực tế, nguồn chỉ có đăng ký",
+          "status": "occurred_unverified"
+        },
+        {
+          "date": "Q2/2026",
+          "event": "Hợp đồng sữa bột phần còn lại 2026 phản ánh vào BLNG — xác nhận qua BCTC Q2/Q3",
+          "status": "occurred"
+        },
+        {
+          "date": "Q1/2027",
+          "event": "Nhà máy sữa Hưng Yên dự kiến vận hành (Phase 1, ~2,100 tỷ VND)",
+          "status": "upcoming"
+        },
+        {
+          "date": "2027 / 2030",
+          "event": "Tây Ninh 2 & 3 tăng tự chủ nguyên liệu (Phase 1/Phase 2, ~3,048 tỷ VND)",
+          "status": "upcoming"
+        }
       ]
     },
     {
@@ -94,16 +210,21 @@
       "exchange": "HOSE",
       "sector": "Dairy",
       "subsector": "Premium dairy turnaround — Vinamilk hậu thuẫn ~65-70% quyền kiểm soát kinh tế",
-      "dataAsOf": "Model xlsx cập nhật gần nhất (27/05/2026) — MỚI NHẤT trong 4 mã; docx/pptx cũ hơn ~3 tuần và có số liệu lệch so với model",
+      "dataAsOf": "Model xlsx cập nhật gần nhất (27/05/2026) — MỚI NHẤT trong 4 mã; docx/pptx cũ hơn ~3 tuần và có số liệu lệch so với model — đã bổ sung KQKD Q2/H1 2026 thực tế (mekongasean, 28/07/2026, cập nhật đến 17/08/2026).",
       "basePrice": 25950,
       "sharesMn": 110,
       "targetPrice": 32032,
       "targetPriceNote": "Model Bear/Base/Bull (14x P/E) cho target 29,284 / 32,032 / 34,938 VND. Báo cáo docx nêu 39,600 VND nhưng công thức giá mục tiêu chính trong model đang lỗi #REF! — không tái tạo được con số này từ chính model. DCF riêng (8.02% WACC, 4% terminal growth) cho 14,798.6 VND — thấp hơn nhiều, cách biệt ~54% so với hướng tiếp cận P/E.",
       "forwardPe": 11.8,
       "dividendYield": 0.0466,
-      "sourceFiles": ["MCM/MCM_model_main.xlsx", "MCM/MCM_report.docx", "MCM/MCM.pptx", "MCM/BCTC_MCM_input.xlsx"],
+      "sourceFiles": [
+        "MCM/MCM_model_main.xlsx",
+        "MCM/MCM_report.docx",
+        "MCM/MCM.pptx",
+        "MCM/BCTC_MCM_input.xlsx"
+      ],
       "thesis": [
-        "Q1/2026 là điểm xoay đã được xác nhận bằng số liệu BCTC thô: doanh thu +25.4% YoY, LNST +67.7% YoY, BLNG 24.61%→28.64% (+403 điểm cơ bản).",
+        "Q1/2026 là điểm xoay được xác nhận bằng số liệu BCTC thô: doanh thu +25.4% YoY, LNST +67.7% YoY, BLNG 24.61%→28.64% (+403 điểm cơ bản). NHƯNG Q2/2026 cho thấy bức tranh phức tạp hơn: doanh thu giảm -5.8% YoY (760.4 tỷ), BLNG chỉ nhích nhẹ +1.5 điểm % (31%), và lợi nhuận tăng +13.4% chủ yếu nhờ chi phí tài chính giảm mạnh (từ 2.1 tỷ xuống 98 triệu đồng) chứ không phải câu chuyện margin/MCC như Q1 — H1/2026 gộp lại vẫn dương (doanh thu +7.3%, LNTT +33.3%) nhưng cần theo dõi sát liệu đà tăng trưởng doanh thu có đang chững lại hay không.",
         "Mộc Châu Creamery (MCC, ra mắt 12/2025) là tái định vị cao cấp đầu tiên sau 70 năm — model dự phóng tỷ trọng doanh thu tăng từ 0.14% (2025) lên 8.7% (2026F), 23.5% (2028F), thận trọng hơn nhiều so với mục tiêu 50-60%/3 năm của ban lãnh đạo.",
         "Vinamilk hậu thuẫn R&D, kênh phân phối (đưa MCC vào ~800 cửa hàng Vinamilk) và dự án Sơn La 4,000 con bò — đây là câu chuyện margin (tiết kiệm 2,000–2,500đ/lít) chứ không phải câu chuyện volume."
       ],
@@ -112,7 +233,9 @@
         "Tỷ trọng MCC trong doanh thu và BLNG blended (28.11% 2025 → 28.60% 2026F theo model)",
         "Giá sữa tươi thu mua (13,000–15,000đ/lít) vs tự sản xuất (10,000–12,000đ/lít) — không có chỉ số realtime, chỉ xác nhận qua BCTC quý",
         "Tiến độ đàn bò Sơn La 4,000 con và Phase 2 nâng công suất chế biến lên 1,000 tấn/ngày (mục tiêu Q2/2026)",
-        "Thanh khoản/free float 31.85% khi thị trường re-rate theo kết quả MCC"
+        "Thanh khoản/free float 31.85% khi thị trường re-rate theo kết quả MCC",
+        "⚠ Q2/2026 doanh thu giảm YoY (-5.8%) trong khi Q1/2026 tăng mạnh (+25.4%) — độ lệch lớn giữa 2 quý liên tiếp, cần xác minh nguyên nhân (thời điểm ghi nhận doanh thu, mùa vụ, hay MCC chưa đạt kỳ vọng ramp-up).",
+        "Báo cáo Q2/2026 KHÔNG công bố số liệu riêng cho mảng MCC (Mộc Châu Creamery) — không thể xác nhận tiến độ tỷ trọng doanh thu MCC so với lộ trình model (8.7% cho cả năm 2026F)."
       ],
       "risks": [
         "Biên LN nhạy cảm nhất trong toàn portfolio với giá sữa nguyên liệu: ±1 điểm % BLNG ≈ ±31 tỷ VND EBIT (xác nhận cả trong model và docx).",
@@ -121,56 +244,184 @@
       ],
       "financials": {
         "revenue": [
-          {"period": "2021", "value": 2925.7},
-          {"period": "2022", "value": 3133.1},
-          {"period": "2023", "value": 3135.4},
-          {"period": "2024", "value": 2917.0},
-          {"period": "2025", "value": 2834.9},
-          {"period": "2026F", "value": 3257.4},
-          {"period": "2027F", "value": 3631.4},
-          {"period": "2028F", "value": 4122.1}
+          {
+            "period": "2021",
+            "value": 2925.7
+          },
+          {
+            "period": "2022",
+            "value": 3133.1
+          },
+          {
+            "period": "2023",
+            "value": 3135.4
+          },
+          {
+            "period": "2024",
+            "value": 2917.0
+          },
+          {
+            "period": "2025",
+            "value": 2834.9
+          },
+          {
+            "period": "2026F",
+            "value": 3257.4
+          },
+          {
+            "period": "2027F",
+            "value": 3631.4
+          },
+          {
+            "period": "2028F",
+            "value": 4122.1
+          }
         ],
         "profit": [
-          {"period": "2021", "value": 319.1},
-          {"period": "2022", "value": 346.5},
-          {"period": "2023", "value": 374.4},
-          {"period": "2024", "value": 219.9},
-          {"period": "2025", "value": 215.8},
-          {"period": "2026F", "value": 251.7},
-          {"period": "2027F", "value": 297.2},
-          {"period": "2028F", "value": 342.3}
+          {
+            "period": "2021",
+            "value": 319.1
+          },
+          {
+            "period": "2022",
+            "value": 346.5
+          },
+          {
+            "period": "2023",
+            "value": 374.4
+          },
+          {
+            "period": "2024",
+            "value": 219.9
+          },
+          {
+            "period": "2025",
+            "value": 215.8
+          },
+          {
+            "period": "2026F",
+            "value": 251.7
+          },
+          {
+            "period": "2027F",
+            "value": 297.2
+          },
+          {
+            "period": "2028F",
+            "value": 342.3
+          }
         ],
         "gpm": [
-          {"period": "2021", "value": 0.3071},
-          {"period": "2022", "value": 0.3249},
-          {"period": "2023", "value": 0.3217},
-          {"period": "2024", "value": 0.2909},
-          {"period": "2025", "value": 0.2811},
-          {"period": "2026F", "value": 0.2860},
-          {"period": "2027F", "value": 0.2937},
-          {"period": "2028F", "value": 0.2971}
+          {
+            "period": "2021",
+            "value": 0.3071
+          },
+          {
+            "period": "2022",
+            "value": 0.3249
+          },
+          {
+            "period": "2023",
+            "value": 0.3217
+          },
+          {
+            "period": "2024",
+            "value": 0.2909
+          },
+          {
+            "period": "2025",
+            "value": 0.2811
+          },
+          {
+            "period": "2026F",
+            "value": 0.286
+          },
+          {
+            "period": "2027F",
+            "value": 0.2937
+          },
+          {
+            "period": "2028F",
+            "value": 0.2971
+          }
         ],
         "segments": [
-          {"label": "Legacy", "period": "2025", "value": 2830.9},
-          {"label": "Legacy", "period": "2026F", "value": 2972.5},
-          {"label": "MCC", "period": "2025", "value": 3.9},
-          {"label": "MCC", "period": "2026F", "value": 284.9},
-          {"label": "Sơn La uplift", "period": "2026F", "value": 12.0}
+          {
+            "label": "Legacy",
+            "period": "2025",
+            "value": 2830.9
+          },
+          {
+            "label": "Legacy",
+            "period": "2026F",
+            "value": 2972.5
+          },
+          {
+            "label": "MCC",
+            "period": "2025",
+            "value": 3.9
+          },
+          {
+            "label": "MCC",
+            "period": "2026F",
+            "value": 284.9
+          },
+          {
+            "label": "Sơn La uplift",
+            "period": "2026F",
+            "value": 12.0
+          }
         ],
         "modelAssumptions": [
-          {"label": "MCC share 2026F", "value": 0.0875},
-          {"label": "MCC BLNG", "value": 0.3013},
-          {"label": "Legacy BLNG", "value": 0.2806},
-          {"label": "DPS 2026E", "value": 1144.0}
+          {
+            "label": "MCC share 2026F",
+            "value": 0.0875
+          },
+          {
+            "label": "MCC BLNG",
+            "value": 0.3013
+          },
+          {
+            "label": "Legacy BLNG",
+            "value": 0.2806
+          },
+          {
+            "label": "DPS 2026E",
+            "value": 1144.0
+          }
         ],
-        "companyGuidance2026": {"revenue": 3126.4, "profit": 241.0, "note": "Model bottom-up cao hơn guidance ~4.2% doanh thu / ~4.4% LNST — công ty có xu hướng đặt kế hoạch thận trọng."}
+        "companyGuidance2026": {
+          "revenue": 3126.4,
+          "profit": 241.0,
+          "note": "Model bottom-up cao hơn guidance ~4.2% doanh thu / ~4.4% LNST — công ty có xu hướng đặt kế hoạch thận trọng."
+        }
       },
       "catalysts": [
-        {"date": "12/2025", "event": "Ra mắt thương hiệu Mộc Châu Creamery (MCC) — tái định vị đầu tiên sau 70 năm", "status": "occurred"},
-        {"date": "Q1/2026 (báo cáo ~04/2026)", "event": "Quý xoay chiều: doanh thu +25.4%, LNST +67.7%, BLNG 28.64% — xác nhận trực tiếp từ BCTC thô", "status": "occurred"},
-        {"date": "20/04/2026", "event": "ĐHCĐ 2026 thông qua kế hoạch DT 3,126.4 tỷ (+10.3%), LNST 241 tỷ (+11.7%), cổ tức tối thiểu 50% LNST", "status": "occurred"},
-        {"date": "Q2/2026", "event": "Sơn La Phase 2 — mục tiêu nâng công suất chế biến lên 1,000 tấn/ngày", "status": "occurred_unverified"},
-        {"date": "2027", "event": "Sơn La có thể đóng góp uplift LN gộp rõ hơn (~36 tỷ VND theo model)", "status": "upcoming"}
+        {
+          "date": "12/2025",
+          "event": "Ra mắt thương hiệu Mộc Châu Creamery (MCC) — tái định vị đầu tiên sau 70 năm",
+          "status": "occurred"
+        },
+        {
+          "date": "Q1/2026 (báo cáo ~04/2026)",
+          "event": "Quý xoay chiều: doanh thu +25.4%, LNST +67.7%, BLNG 28.64% — xác nhận trực tiếp từ BCTC thô",
+          "status": "occurred"
+        },
+        {
+          "date": "20/04/2026",
+          "event": "ĐHCĐ 2026 thông qua kế hoạch DT 3,126.4 tỷ (+10.3%), LNST 241 tỷ (+11.7%), cổ tức tối thiểu 50% LNST",
+          "status": "occurred"
+        },
+        {
+          "date": "Q2/2026",
+          "event": "Sơn La Phase 2 — mục tiêu nâng công suất chế biến lên 1,000 tấn/ngày",
+          "status": "occurred_unverified"
+        },
+        {
+          "date": "2027",
+          "event": "Sơn La có thể đóng góp uplift LN gộp rõ hơn (~36 tỷ VND theo model)",
+          "status": "upcoming"
+        }
       ]
     },
     {
@@ -179,7 +430,7 @@
       "exchange": "UPCoM",
       "sector": "Sugar/Soy",
       "subsector": "Đường, sữa đậu nành (Vinasoy), điện sinh khối, Thành Phát",
-      "dataAsOf": "Cập nhật ĐHCĐ QNS 2026 (phát hành sau 20/04/2026) — dữ liệu tương đối mới",
+      "dataAsOf": "Cập nhật ĐHCĐ QNS 2026 (phát hành sau 20/04/2026) — dữ liệu tương đối mới — đã bổ sung KQKD Q2/H1 2026 thực tế qua báo chí (Vietcap, baomoi, cập nhật đến 17/08/2026).",
       "basePrice": null,
       "basePriceNote": "QNS không có mã giao dịch trả về từ Yahoo Finance (UPCoM) — không thể lấy giá live. Cần cập nhật thủ công từ HNX/VSD nếu cần giá thị trường thời gian thực.",
       "sharesMn": 312,
@@ -187,9 +438,12 @@
       "targetPriceNote": "Target P/E model 8.0x — THẤP HƠN cả P/E hiện tại (9.1x) lẫn trung vị lịch sử (10.3x), không giải thích rõ trong nguồn (có thể là biên an toàn chủ động trước rủi ro chu kỳ giá đường). EPS 2026F model 6,731.9đ dùng để tính — nhưng LNST 2026F model (2,100 tỷ) cao hơn ~39% so với chính kế hoạch ban lãnh đạo trình ĐHCĐ (1,512 tỷ) — xem cảnh báo dưới.",
       "forwardPe": 8.0,
       "dividendYield": 0.0743,
-      "sourceFiles": ["QNS/QNS_model_main.xlsx", "QNS/Cập nhật ĐHCĐ QNS 2026.pdf"],
+      "sourceFiles": [
+        "QNS/QNS_model_main.xlsx",
+        "QNS/Cập nhật ĐHCĐ QNS 2026.pdf"
+      ],
       "thesis": [
-        "Đường được hỗ trợ bởi thuế phòng vệ thương mại (CBPG 42.99% + CTC 4.65% với đường Thái, hạn gia hạn 16/06/2026) và mở rộng vùng mía (31,599ha → mục tiêu 40,000ha ~2027/28); tự cung nội địa VN mới đạt ~62% nhu cầu, còn dư địa giành thị phần từ nhập khẩu/nhập lậu.",
+        "Đường được hỗ trợ bởi thuế phòng vệ thương mại (CBPG 42.99% + CTC 4.65% với đường Thái, hạn gia hạn 16/06/2026) và mở rộng vùng mía (31,599ha → mục tiêu 40,000ha ~2027/28); tự cung nội địa VN mới đạt ~62% nhu cầu, còn dư địa giành thị phần từ nhập khẩu/nhập lậu. KQKD Q2/2026 xác nhận đúng rủi ro này: doanh thu mảng đường +7% YoY nhưng LNTT giảm 44% còn ~90 tỷ do giá bán bình quân giảm 13%.",
         "Vinasoy là mảng biên cao nhất (39-44% BLNG) và đóng vai trò 'bộ đệm' lợi nhuận khi đường biến động chu kỳ; công ty đã chốt giá đậu nành 2026 thuận lợi (dù bản thân model lại giả định BLNG Vinasoy giảm — mâu thuẫn chưa giải thích).",
         "Cổ tức tiền mặt cao lịch sử (70-90% LNST) là neo định giá, nhưng CAPEX An Khê (3,000-4,000 tỷ) + Ethanol (>2,000 tỷ) đã kéo mục tiêu DPS 2026 giảm mạnh xuống 1,500đ (từ 4,000đ 2025) — cho thấy công ty đang chuyển ưu tiên dòng tiền sang đầu tư."
       ],
@@ -198,7 +452,9 @@
         "Tiến độ điều tra tự vệ thương mại HFCS (dự kiến ~1 năm, chưa có ngày nộp hồ sơ cụ thể)",
         "Sản lượng mía, năng suất, tỷ lệ mía/đường (model giả định 10.0 cho 2026F — kém hơn cả kỷ lục 8.8 công ty tự công bố)",
         "LNTT mảng đường: đã giảm 53% YoY trong 2 tháng đầu 2026 dù doanh thu +13% và sản lượng +38% — dấu hiệu biên đang co lại nhanh hơn giá trị bán ra",
-        "Khoảng cách vốn: capex thực chi gần nhất chỉ ~250-370 tỷ/năm trong khi 2 dự án lớn cần ~5,000-6,000 tỷ — rủi ro cần vay nợ dài hạn mới (hiện tại QNS không có nợ dài hạn)"
+        "Khoảng cách vốn: capex thực chi gần nhất chỉ ~250-370 tỷ/năm trong khi 2 dự án lớn cần ~5,000-6,000 tỷ — rủi ro cần vay nợ dài hạn mới (hiện tại QNS không có nợ dài hạn)",
+        "KQKD Q2/2026 thực tế: doanh thu thuần 3,289 tỷ (+13% YoY), LNST ~567 tỷ (+4% YoY) — biên lợi nhuận gộp cải thiện (+21% gộp) nhưng chi phí bán hàng/quản lý tăng nhanh hơn ăn mòn phần lớn lợi ích. H1/2026: doanh thu 6,052 tỷ (+17%), LNST 958 tỷ (+2%).",
+        "Vinasoy (Vietcap, Q2/2026): tăng trưởng vẫn đến chủ yếu từ sản phẩm mới + nâng cấp mix, không phải tăng sản lượng nền — cần theo dõi độ bền của chiến lược premium hoá."
       ],
       "risks": [
         "Giá đường có thể đang ở đáy chu kỳ nhưng outlook chưa rõ ràng — hai nguồn ngay trong bộ hồ sơ QNS còn mâu thuẫn nhau về hướng giá (model giả định giảm dần, index nội bộ công ty theo dõi lại tăng đầu 2026).",
@@ -208,50 +464,172 @@
       ],
       "financials": {
         "revenue": [
-          {"period": "2021", "value": 7335.3},
-          {"period": "2022", "value": 8255.0},
-          {"period": "2023", "value": 10021.2},
-          {"period": "2024", "value": 10243.3},
-          {"period": "2025", "value": 10574.9},
-          {"period": "2026F", "value": 11010.6}
+          {
+            "period": "2021",
+            "value": 7335.3
+          },
+          {
+            "period": "2022",
+            "value": 8255.0
+          },
+          {
+            "period": "2023",
+            "value": 10021.2
+          },
+          {
+            "period": "2024",
+            "value": 10243.3
+          },
+          {
+            "period": "2025",
+            "value": 10574.9
+          },
+          {
+            "period": "2026F",
+            "value": 11010.6
+          }
         ],
         "profit": [
-          {"period": "2021", "value": 1253.6},
-          {"period": "2022", "value": 1286.7},
-          {"period": "2023", "value": 2183.5},
-          {"period": "2024", "value": 2376.7},
-          {"period": "2025", "value": 1916.5},
-          {"period": "2026F", "value": 2100.4}
+          {
+            "period": "2021",
+            "value": 1253.6
+          },
+          {
+            "period": "2022",
+            "value": 1286.7
+          },
+          {
+            "period": "2023",
+            "value": 2183.5
+          },
+          {
+            "period": "2024",
+            "value": 2376.7
+          },
+          {
+            "period": "2025",
+            "value": 1916.5
+          },
+          {
+            "period": "2026F",
+            "value": 2100.4
+          }
         ],
         "gpm": [
-          {"period": "2021", "value": 0.3084},
-          {"period": "2022", "value": 0.2979},
-          {"period": "2023", "value": 0.3344},
-          {"period": "2024", "value": 0.3401},
-          {"period": "2025", "value": 0.3333},
-          {"period": "2026F", "value": 0.3207}
+          {
+            "period": "2021",
+            "value": 0.3084
+          },
+          {
+            "period": "2022",
+            "value": 0.2979
+          },
+          {
+            "period": "2023",
+            "value": 0.3344
+          },
+          {
+            "period": "2024",
+            "value": 0.3401
+          },
+          {
+            "period": "2025",
+            "value": 0.3333
+          },
+          {
+            "period": "2026F",
+            "value": 0.3207
+          }
         ],
         "segments2026": [
-          {"label": "Đường", "revenue": 4028.9, "gpm": 0.1982, "growth": 0.1099},
-          {"label": "Sữa đậu nành", "revenue": 5016.9, "gpm": 0.4184, "growth": 0.0441},
-          {"label": "Thành Phát", "revenue": 1964.8, "gpm": 0.0218, "growth": 0.0812},
-          {"label": "Khác", "revenue": 1852.5, "gpm": 0.3186, "growth": -0.0061}
+          {
+            "label": "Đường",
+            "revenue": 4028.9,
+            "gpm": 0.1982,
+            "growth": 0.1099
+          },
+          {
+            "label": "Sữa đậu nành",
+            "revenue": 5016.9,
+            "gpm": 0.4184,
+            "growth": 0.0441
+          },
+          {
+            "label": "Thành Phát",
+            "revenue": 1964.8,
+            "gpm": 0.0218,
+            "growth": 0.0812
+          },
+          {
+            "label": "Khác",
+            "revenue": 1852.5,
+            "gpm": 0.3186,
+            "growth": -0.0061
+          }
         ],
         "sugarOps": [
-          {"period": "2023", "caneBoughtTons": 1700000, "sugarTons": 192000, "caneToSugar": 8.85},
-          {"period": "2024", "caneBoughtTons": 1970000, "sugarTons": 215000, "caneToSugar": 9.16},
-          {"period": "2025", "caneBoughtTons": 2081863, "sugarTons": 224500, "caneToSugar": 9.27},
-          {"period": "2026F", "caneBoughtTons": 2118057, "sugarTons": 211806, "caneToSugar": 10.0}
+          {
+            "period": "2023",
+            "caneBoughtTons": 1700000,
+            "sugarTons": 192000,
+            "caneToSugar": 8.85
+          },
+          {
+            "period": "2024",
+            "caneBoughtTons": 1970000,
+            "sugarTons": 215000,
+            "caneToSugar": 9.16
+          },
+          {
+            "period": "2025",
+            "caneBoughtTons": 2081863,
+            "sugarTons": 224500,
+            "caneToSugar": 9.27
+          },
+          {
+            "period": "2026F",
+            "caneBoughtTons": 2118057,
+            "sugarTons": 211806,
+            "caneToSugar": 10.0
+          }
         ],
-        "companyGuidance2026": {"revenue": 10500.0, "profit": 1512.0, "note": "Kế hoạch chính thức ban lãnh đạo trình ĐHCĐ: doanh thu -5% YoY, LNST -21% YoY — thấp hơn nhiều so với model bottom-up (11,010.6 / 2,100.4). QNS có truyền thống đặt kế hoạch thận trọng và thường vượt kế hoạch theo mô tả trong chính AGM deck."}
+        "companyGuidance2026": {
+          "revenue": 10500.0,
+          "profit": 1512.0,
+          "note": "Kế hoạch chính thức ban lãnh đạo trình ĐHCĐ: doanh thu -5% YoY, LNST -21% YoY — thấp hơn nhiều so với model bottom-up (11,010.6 / 2,100.4). QNS có truyền thống đặt kế hoạch thận trọng và thường vượt kế hoạch theo mô tả trong chính AGM deck."
+        }
       },
       "catalysts": [
-        {"date": "12/2025", "event": "Khởi công mở rộng nhà máy đường An Khê (18,000 → 25,000 tấn mía/ngày)", "status": "occurred"},
-        {"date": "16/06/2026", "event": "Hạn gia hạn thuế CBPG/CTC đường Thái Lan — công ty kỳ vọng gia hạn giữ nguyên mức thuế", "status": "occurred_unverified"},
-        {"date": "17/04/2026 & 28/04/2026", "event": "Ngày chốt quyền & chi trả cổ tức 2025 đợt cuối (2,000đ/cp)", "status": "occurred"},
-        {"date": "01/06/2026", "event": "Việt Nam bắt buộc xăng E10 toàn quốc — động lực nhu cầu cho nhà máy ethanol An Khê", "status": "occurred"},
-        {"date": "2028", "event": "Mục tiêu An Khê đạt 25,000 tấn mía/ngày (~380,000 tấn đường/năm)", "status": "upcoming"},
-        {"date": "01/01/2028", "event": "Mục tiêu vận hành thương mại nhà máy Ethanol An Khê (200,000 lít/ngày)", "status": "upcoming"}
+        {
+          "date": "12/2025",
+          "event": "Khởi công mở rộng nhà máy đường An Khê (18,000 → 25,000 tấn mía/ngày)",
+          "status": "occurred"
+        },
+        {
+          "date": "16/06/2026",
+          "event": "Hạn gia hạn thuế CBPG/CTC đường Thái Lan — công ty kỳ vọng gia hạn giữ nguyên mức thuế",
+          "status": "occurred_unverified"
+        },
+        {
+          "date": "17/04/2026 & 28/04/2026",
+          "event": "Ngày chốt quyền & chi trả cổ tức 2025 đợt cuối (2,000đ/cp)",
+          "status": "occurred"
+        },
+        {
+          "date": "01/06/2026",
+          "event": "Việt Nam bắt buộc xăng E10 toàn quốc — động lực nhu cầu cho nhà máy ethanol An Khê",
+          "status": "occurred"
+        },
+        {
+          "date": "2028",
+          "event": "Mục tiêu An Khê đạt 25,000 tấn mía/ngày (~380,000 tấn đường/năm)",
+          "status": "upcoming"
+        },
+        {
+          "date": "01/01/2028",
+          "event": "Mục tiêu vận hành thương mại nhà máy Ethanol An Khê (200,000 lít/ngày)",
+          "status": "upcoming"
+        }
       ]
     },
     {
@@ -260,25 +638,30 @@
       "exchange": "HOSE",
       "sector": "Beer",
       "subsector": "Domestic beer leader — export chỉ ~1% doanh thu",
-      "dataAsOf": "⚠ Báo cáo cũ nhất trong 4 mã — ĐHCĐ & dữ liệu dừng ở 23-24/04/2025, KHÔNG có KH 2026, KHÔNG có kết quả FY2025 thực tế, hơn 15 tháng so với cut-off dashboard (13/08/2026). Cần bổ sung nguồn mới trước khi ra quyết định.",
+      "dataAsOf": "Bộ hồ sơ local (SAB .xlsx, Cập nhật ĐHCĐ SAB.pptx) vẫn dừng ở 04/2025, nhưng dashboard đã bổ sung KQKD Q1-Q2/2026 và ĐHCĐ 2026 (23/04/2026) qua báo chí/công ty chứng khoán (VIR, Vietstock, VDSC, cập nhật đến 17/08/2026). ⚠ Vẫn CHƯA xác minh được qua BCTC gốc — xem dataQualityNotes về xung đột số liệu doanh thu.",
       "basePrice": 45850,
       "sharesMn": 1282.6,
       "targetPrice": null,
-      "targetPriceNote": "Nguồn không có DCF/target price chính thức — chỉ có nhận định P/E 13.8x (24/04/2025) thấp hơn trung vị 5 năm 21.6x, được trình bày như một cơ hội re-rating định tính, không phải target giá cụ thể.",
+      "targetPriceNote": "Nguồn local không có DCF/target price chính thức. Bổ sung từ báo chí: Shinhan Securities Vietnam khuyến nghị MUA, target 55,100đ (10/11/2025 — đã hơn 9 tháng, có thể lỗi thời sau khi giá đã chạy). VDSC (12/05/2026, khuyến nghị MUA, không nêu target cụ thể) ghi nhận vùng hỗ trợ/kháng cự kỹ thuật 46,000-55,000đ. Chưa có target price đồng thuận mới — cần cập nhật báo cáo phân tích gần nhất trước khi dùng cho quyết định đầu tư.",
       "forwardPe": 13.8,
       "dividendYield": 0.102,
-      "sourceFiles": ["Bia | SAB/SAB .xlsx", "Bia | SAB/Cập nhật ĐHCĐ SAB.pptx"],
+      "sourceFiles": [
+        "Bia | SAB/SAB .xlsx",
+        "Bia | SAB/Cập nhật ĐHCĐ SAB.pptx"
+      ],
       "thesis": [
         "Nội địa là trọng tâm tuyệt đối; export chỉ ~1% doanh thu và <1% sản lượng — công ty chủ động không theo đuổi tăng trưởng export.",
         "Sabibeco/Sagota (>43% cổ phần, đã hoàn tất mua, 6 nhà máy) mở rộng công suất bia lon và danh mục bình dân — nhưng KHÔNG có số liệu công suất/doanh thu/biên riêng nào được công bố, lợi ích hợp nhất hiện vẫn thuần định tính.",
-        "Giá nhôm hạ nhiệt sau khi tăng 18% năm 2024, cùng hợp đồng dài hạn với nhà cung cấp giúp giảm rủi ro bao bì; trong khi đó TTĐB (thuế tiêu thụ đặc biệt) là biến số chính sách lớn nhất, chưa có lộ trình thuế suất cụ thể nào được công bố trong nguồn."
+        "Giá malt/đại mạch và nhôm đều đã được SAB khóa giá thuận lợi cho cả năm 2026 (VDSC, 12/05/2026) — đây là lý do chính giúp BLNG phục hồi mạnh: 37.2% (Q1/2026) và 38.7% (Q2/2026), so với 32.2% và 36% cùng kỳ 2025.",
+        "Lộ trình thuế TTĐB đã được luật hoá chính thức (Luật 66/2025/QH15): 65% (2026) tăng dần lên 90% (2031) — không còn là ẩn số chính sách; SAB đã tăng giá bán 2-5% cuối 2025/đầu 2026 để bù đắp một phần áp lực này (VDSC).",
+        "Q1-Q2/2026: lợi nhuận tăng trưởng hai chữ số (Q1 LNST +55.8% YoY theo tinnhanhchungkhoan; Q2 LNST khoảng -0.6% đến -3% YoY tùy nguồn do chi phí quảng cáo/khuyến mãi tăng ~26% ăn mòn phần lớn lợi nhuận gộp tăng thêm) — biên gộp cải thiện nhưng chi phí bán hàng là biến số cần theo dõi sát."
       ],
       "watch": [
-        "⚠ Kết quả FY2025 thực tế (so với kế hoạch DT 31,641 tỷ / LNST 4,835 tỷ +8%) — KHÔNG có trong nguồn hiện tại",
-        "⚠ Kế hoạch/ĐHCĐ 2026 — KHÔNG có trong nguồn hiện tại, cần cập nhật",
-        "Giá nhôm/lon và hiệu quả hợp đồng dài hạn — BLNG quý gần nhất đã giảm về 27.98% (Q4/2024, thấp nhất chuỗi số liệu)",
-        "Tiến độ hợp nhất Sabibeco và cải thiện BLNG hợp nhất — dòng 'lãi công ty liên doanh liên kết' đã giảm 3 năm liên tiếp (323→232→197 tỷ VND 2022-2024)",
-        "Lộ trình Luật Thuế TTĐB (sửa đổi) — quản lý kỳ vọng có thể lùi ~1 năm do rủi ro thuế đối ứng Mỹ, nhưng chưa có mức thuế/ngày hiệu lực cụ thể"
+        "⚠ Xung đột số liệu doanh thu FY2025: chuỗi số liệu model cũ (2018-2024, kết thúc ở 32,164 tỷ năm 2024) và số liệu FY2025 tìm được qua báo chí (25,888 tỷ theo cafef 31/01/2026 HOẶC ~32,000 tỷ theo VIR) không nối khớp nhau — nhiều khả năng khác nhau về cơ sở doanh thu (gộp có/không thuế TTĐB, hợp nhất/công ty mẹ). CẦN xác minh qua BCTC gốc trước khi cập nhật chuỗi số liệu chính.",
+        "2026 chưa có kế hoạch doanh thu/LNST bằng số cụ thể từ nguồn đáng tin cậy — VIR (23/04/2026) chỉ xác nhận định tính 'tăng trưởng doanh thu và lợi nhuận, lợi nhuận chậm hơn doanh thu'.",
+        "Chi phí quảng cáo/khuyến mãi Q2/2026 tăng ~26% YoY, ăn mòn phần lớn lợi nhuận gộp tăng thêm — theo dõi xem đây là chi phí một lần (World Cup, mùa hè) hay xu hướng cấu trúc mới.",
+        "Giá nhôm/lon và malt/đại mạch — đã khóa giá thuận lợi cho 2026 nhưng chưa rõ mức độ hedge cho 2027 khi lộ trình thuế TTĐB tiếp tục tăng.",
+        "Tiến độ hợp nhất Sabibeco và cải thiện BLNG hợp nhất — vẫn KHÔNG có số liệu công suất/doanh thu/biên riêng nào được công bố tính đến 08/2026."
       ],
       "risks": [
         "Thuế tiêu thụ đặc biệt có thể ảnh hưởng cầu và giá bán — đây là rủi ro valuation multiple, không chỉ là dòng chi phí P&L.",
@@ -288,53 +671,173 @@
       ],
       "financials": {
         "revenue": [
-          {"period": "2018", "value": 36043.0},
-          {"period": "2019", "value": 38133.8},
-          {"period": "2020", "value": 28135.6},
-          {"period": "2021", "value": 26578.0},
-          {"period": "2022", "value": 35235.9},
-          {"period": "2023", "value": 30706.8},
-          {"period": "2024", "value": 32164.3}
+          {
+            "period": "2018",
+            "value": 36043.0
+          },
+          {
+            "period": "2019",
+            "value": 38133.8
+          },
+          {
+            "period": "2020",
+            "value": 28135.6
+          },
+          {
+            "period": "2021",
+            "value": 26578.0
+          },
+          {
+            "period": "2022",
+            "value": 35235.9
+          },
+          {
+            "period": "2023",
+            "value": 30706.8
+          },
+          {
+            "period": "2024",
+            "value": 32164.3
+          }
         ],
         "profit": [
-          {"period": "2022Q2", "value": 1667.9},
-          {"period": "2022Q3", "value": 1341.9},
-          {"period": "2022Q4", "value": 1043.3},
-          {"period": "2023Q1", "value": 967.3},
-          {"period": "2023Q2", "value": 1159.2},
-          {"period": "2023Q3", "value": 1044.4},
-          {"period": "2023Q4", "value": 946.6},
-          {"period": "2024Q1", "value": 997.3},
-          {"period": "2024Q2", "value": 1248.3},
-          {"period": "2024Q3", "value": 1119.1},
-          {"period": "2024Q4", "value": 965.5}
+          {
+            "period": "2022Q2",
+            "value": 1667.9
+          },
+          {
+            "period": "2022Q3",
+            "value": 1341.9
+          },
+          {
+            "period": "2022Q4",
+            "value": 1043.3
+          },
+          {
+            "period": "2023Q1",
+            "value": 967.3
+          },
+          {
+            "period": "2023Q2",
+            "value": 1159.2
+          },
+          {
+            "period": "2023Q3",
+            "value": 1044.4
+          },
+          {
+            "period": "2023Q4",
+            "value": 946.6
+          },
+          {
+            "period": "2024Q1",
+            "value": 997.3
+          },
+          {
+            "period": "2024Q2",
+            "value": 1248.3
+          },
+          {
+            "period": "2024Q3",
+            "value": 1119.1
+          },
+          {
+            "period": "2024Q4",
+            "value": 965.5
+          }
         ],
         "gpm": [
-          {"period": "2018", "value": 0.2249},
-          {"period": "2019", "value": 0.2520},
-          {"period": "2020", "value": 0.3040},
-          {"period": "2021", "value": 0.2885},
-          {"period": "2022", "value": 0.3079},
-          {"period": "2023", "value": 0.2985},
-          {"period": "2024", "value": 0.2924}
+          {
+            "period": "2018",
+            "value": 0.2249
+          },
+          {
+            "period": "2019",
+            "value": 0.252
+          },
+          {
+            "period": "2020",
+            "value": 0.304
+          },
+          {
+            "period": "2021",
+            "value": 0.2885
+          },
+          {
+            "period": "2022",
+            "value": 0.3079
+          },
+          {
+            "period": "2023",
+            "value": 0.2985
+          },
+          {
+            "period": "2024",
+            "value": 0.2924
+          }
         ],
         "valuation": [
-          {"period": "Q4/2023", "pe": 16.70, "pb": 2.84, "evEbitda": 14.99},
-          {"period": "Q1/2024", "pe": 16.70, "pb": 2.75, "evEbitda": 14.93},
-          {"period": "Q2/2024", "pe": 16.71, "pb": 2.97, "evEbitda": 13.91},
-          {"period": "Q3/2024", "pe": 16.00, "pb": 2.77, "evEbitda": 12.87},
-          {"period": "Q4/2024", "pe": 14.42, "pb": 2.68, "evEbitda": 11.94}
+          {
+            "period": "Q4/2023",
+            "pe": 16.7,
+            "pb": 2.84,
+            "evEbitda": 14.99
+          },
+          {
+            "period": "Q1/2024",
+            "pe": 16.7,
+            "pb": 2.75,
+            "evEbitda": 14.93
+          },
+          {
+            "period": "Q2/2024",
+            "pe": 16.71,
+            "pb": 2.97,
+            "evEbitda": 13.91
+          },
+          {
+            "period": "Q3/2024",
+            "pe": 16.0,
+            "pb": 2.77,
+            "evEbitda": 12.87
+          },
+          {
+            "period": "Q4/2024",
+            "pe": 14.42,
+            "pb": 2.68,
+            "evEbitda": 11.94
+          }
         ],
-        "companyGuidance2025": {"revenue": 31641.0, "profit": 4835.0, "note": "Kế hoạch trình ĐHCĐ 04/2025: DT -1% YoY (thận trọng chủ động), LNST +8% YoY. Không có số liệu thực hiện FY2025 trong nguồn — cần cập nhật."}
+        "companyGuidance2025": {
+          "revenue": 31641.0,
+          "profit": 4835.0,
+          "note": "Kế hoạch trình ĐHCĐ 04/2025: DT -1% YoY (thận trọng chủ động), LNST +8% YoY. Không có số liệu thực hiện FY2025 trong nguồn — cần cập nhật."
+        }
       },
       "catalysts": [
-        {"date": "04/2025", "event": "Kế hoạch 2025: DT 31,641 tỷ (-1%), LNST 4,835 tỷ (+8%) — nguồn dữ liệu SAB dừng lại ở đây", "status": "occurred_unverified"},
-        {"date": "01/07/2025 & 31/07/2025", "event": "Ngày chốt quyền & chi trả cổ tức FY2024 đợt cuối (tổng 50% mệnh giá, 5,000đ/cp)", "status": "occurred"},
-        {"date": "Chưa xác định", "event": "ĐHCĐ 2026 và kế hoạch 2026 — KHÔNG có trong bộ hồ sơ hiện tại", "status": "missing"}
+        {
+          "date": "04/2025",
+          "event": "Kế hoạch 2025: DT 31,641 tỷ (-1%), LNST 4,835 tỷ (+8%) — nguồn dữ liệu SAB dừng lại ở đây",
+          "status": "occurred_unverified"
+        },
+        {
+          "date": "01/07/2025 & 31/07/2025",
+          "event": "Ngày chốt quyền & chi trả cổ tức FY2024 đợt cuối (tổng 50% mệnh giá, 5,000đ/cp)",
+          "status": "occurred"
+        },
+        {
+          "date": "23/04/2026",
+          "event": "ĐHCĐ 2026: kế hoạch định tính 'tăng trưởng doanh thu và lợi nhuận, lợi nhuận chậm hơn doanh thu' (không có số cụ thể trong nguồn tìm được); cổ tức FY2025 tiếp tục ở mức cao",
+          "status": "occurred"
+        },
+        {
+          "date": "Q1-Q2/2026 (công bố 07/2026)",
+          "event": "KQKD Q1/2026: LNST ~1,185-1,245 tỷ (+49-56% YoY, hai nguồn lệch nhau); Q2/2026: doanh thu thuần ~6.89 nghìn tỷ (+1%), LNST ~1.18-1.24 nghìn tỷ (giảm nhẹ YoY do chi phí quảng cáo +26%). H1/2026: doanh thu +5.8-6% YoY, LNST +18-21% YoY (hai nguồn báo chí lệch nhau, cần đối chiếu BCTC)",
+          "status": "occurred"
+        }
       ]
     }
   ],
-
   "drivers": [
     {
       "id": "milk_powder",
@@ -342,17 +845,125 @@
       "category": "market-live",
       "unit": "USD/tấn",
       "cadence": "Live (proxy hướng đi) + xác nhận qua BCTC quý",
-      "live": {"symbol": "milk", "label": "CME Class III Milk futures (DC=F)", "note": "Không có chỉ số SMP/WMP giao ngay công khai realtime; dùng Class III milk futures làm proxy hướng đi, không phải mức giá tuyệt đối VNM thực mua."},
+      "live": {
+        "symbol": "milk",
+        "label": "CME Class III Milk futures (DC=F)",
+        "note": "Không có chỉ số SMP/WMP giao ngay công khai realtime; dùng Class III milk futures làm proxy hướng đi, không phải mức giá tuyệt đối VNM thực mua."
+      },
       "anchors": [
-        {"label": "Giá hợp đồng VNM chốt cho Q1/2026 (chốt từ Q3/2025)", "value": "≈3,918 USD/MT"},
-        {"label": "Giá spot tham chiếu T2/2026", "value": "≈3,446 USD/MT"},
-        {"label": "Độ trễ nhập nguyên liệu trước khi dùng", "value": "~3 tháng"},
-        {"label": "Ước giảm giá bình quân 2026 so với 2025", "value": "~-12% YoY"}
+        {
+          "label": "Giá hợp đồng VNM chốt cho Q1/2026 (chốt từ Q3/2025)",
+          "value": "≈3,918 USD/MT"
+        },
+        {
+          "label": "Giá spot tham chiếu T2/2026",
+          "value": "≈3,446 USD/MT"
+        },
+        {
+          "label": "Độ trễ nhập nguyên liệu trước khi dùng",
+          "value": "~3 tháng"
+        },
+        {
+          "label": "Ước giảm giá bình quân 2026 so với 2025",
+          "value": "~-12% YoY"
+        }
       ],
       "mechanism": "VNM nhập SMP/WMP trước ~3 tháng so với thời điểm sử dụng, nên giá spot hôm nay chỉ phản ánh vào COGS/BLNG sau khoảng 1 quý. Model kỳ vọng BLNG 2026 quay lại ~41.4% (tương đương 2024) nếu giá bình quân giảm ~12% YoY như giả định.",
       "affected": [
-        {"ticker": "VNM", "direction": "Thuận lợi nếu giá tiếp tục giảm/đi ngang thấp", "sensitivity": "Model Bear/Base/Bull chỉ chênh ±0.5 điểm % BLNG quanh base case — biên downside trong model khá hẹp so với biến động hàng hoá thực tế.", "timing": "Tác động rõ nhất từ Q2/2026; xác nhận qua BLNG các quý gần nhất."},
-        {"ticker": "MCM", "direction": "Gián tiếp, yếu", "sensitivity": "MCM chủ yếu dùng sữa tươi nội địa; SMP/WMP chỉ liên quan phần sản phẩm sữa bột/dinh dưỡng, không phải driver chính.", "timing": "Không áp dụng trực tiếp."}
+        {
+          "ticker": "VNM",
+          "direction": "Thuận lợi nếu giá tiếp tục giảm/đi ngang thấp",
+          "sensitivity": "Model Bear/Base/Bull chỉ chênh ±0.5 điểm % BLNG quanh base case — biên downside trong model khá hẹp so với biến động hàng hoá thực tế.",
+          "timing": "Tác động rõ nhất từ Q2/2026; xác nhận qua BLNG các quý gần nhất."
+        },
+        {
+          "ticker": "MCM",
+          "direction": "Gián tiếp, yếu",
+          "sensitivity": "MCM chủ yếu dùng sữa tươi nội địa; SMP/WMP chỉ liên quan phần sản phẩm sữa bột/dinh dưỡng, không phải driver chính.",
+          "timing": "Không áp dụng trực tiếp."
+        }
+      ]
+    },
+    {
+      "id": "vnm_domestic_consumption",
+      "name": "Dư địa tiêu dùng sữa nội địa (tiêu thụ bình quân đầu người)",
+      "category": "operational",
+      "unit": "Lít/người/năm",
+      "cadence": "Năm — theo báo cáo Hiệp hội Sữa VN (VDA)/GSO, không có chỉ số quý công khai",
+      "live": null,
+      "anchors": [
+        {
+          "label": "Tiêu thụ sữa bình quân đầu người VN (2025)",
+          "value": "~27-29 lít/người/năm"
+        },
+        {
+          "label": "So sánh khu vực",
+          "value": "Thái Lan ~35 lít/người/năm; Singapore ~45 lít/người/năm"
+        },
+        {
+          "label": "Mục tiêu ngành đến 2045 (VDA/Bộ NN&MT, 12/08/2025)",
+          "value": "70 lít/người/năm"
+        },
+        {
+          "label": "Guidance tăng trưởng nội địa VNM 2026 (Vietcap, 09/02/2026)",
+          "value": "+4-6% YoY — thấp hơn nhiều so với xuất khẩu (+15%)"
+        },
+        {
+          "label": "Số trẻ sinh mới hàng năm dù tỷ lệ sinh giảm",
+          "value": "~1 triệu trẻ/năm — vẫn bổ sung người dùng mới cho phân khúc sữa công thức/trẻ em"
+        },
+        {
+          "label": "KQKD H1/2026 thực tế (Vietstock, 31/07/2026)",
+          "value": "Doanh thu nội địa +12.4% YoY (H1) / +6.5% YoY (Q2) — vượt xa guidance đầu năm cả năm chỉ 4-6%"
+        }
+      ],
+      "mechanism": "Thị trường sữa nội địa VN đã vào giai đoạn tăng trưởng chậm (mature) nhưng tiêu thụ bình quân đầu người vẫn thấp hơn khu vực (~77-83% Thái Lan, ~60-64% Singapore) — đây là dư địa dài hạn (cấu trúc nhân khẩu học + thu nhập), không phải catalyst ngắn hạn. VNM tự guide tăng trưởng nội địa 2026 chỉ 4-6%, thấp hơn khoảng 3 lần so với guidance xuất khẩu (15%), xác nhận ban lãnh đạo cũng coi nội địa là nền tảng ổn định chứ không phải nơi tìm tăng trưởng — khớp với driver mix cao cấp (Green Farm, Optimum) đã có trong thesis. Thực tế H1/2026 (+12.4% YoY) đã vượt xa guidance cả năm (4-6%) ngay từ giữa năm — có thể do phục hồi sức mua nội địa tốt hơn kỳ vọng hoặc hiệu ứng nền thấp 2025; cần xác nhận thêm ở Q3-Q4/2026 trước khi kết luận đây là xu hướng bền vững hay chỉ là điểm rơi thời vụ (kỷ niệm 50 năm, đẩy mạnh marketing).",
+      "affected": [
+        {
+          "ticker": "VNM",
+          "direction": "Trung lập/tích cực chậm — nền tảng ổn định, không phải động lực tăng trưởng chính",
+          "sensitivity": "Guidance nội địa 2026 (+4-6%) thấp hơn ~3 lần guidance xuất khẩu (+15%) — nếu tăng trưởng tổng doanh thu VNM cần tăng tốc, phải đến từ mix cao cấp hoặc xuất khẩu, không phải volume nội địa. H1/2026 thực tế đã vượt xa guidance ban đầu — nếu duy trì, đây sẽ không còn là driver 'nền ổn định' mà chuyển thành động lực tăng trưởng thực sự, khác với đánh giá ban đầu.",
+          "timing": "Theo dõi theo năm qua báo cáo VDA/GSO và theo quý qua kết quả kinh doanh mảng nội địa của VNM."
+        }
+      ]
+    },
+    {
+      "id": "vnm_export_growth",
+      "name": "Tăng trưởng xuất khẩu quốc tế (Trung Đông là thị trường chủ lực)",
+      "category": "operational",
+      "unit": "% tăng trưởng doanh thu xuất khẩu/quốc tế",
+      "cadence": "Năm/quý — theo guidance công ty và BCTC",
+      "live": null,
+      "anchors": [
+        {
+          "label": "Guidance tăng trưởng xuất khẩu 2026 (Vietcap, 09/02/2026)",
+          "value": "+15% YoY — cao gấp ~3 lần guidance nội địa (+4-6%)"
+        },
+        {
+          "label": "Tỷ trọng doanh thu quốc tế/tổng doanh thu 2025",
+          "value": "~25% (từ 18-21% giai đoạn 2022-2024)"
+        },
+        {
+          "label": "Thị trường xuất khẩu trực tiếp chủ lực (số liệu lịch sử, cần cập nhật)",
+          "value": "Trung Đông đóng góp ~85% doanh thu xuất khẩu trực tiếp — VNM khai phá từ 1997"
+        },
+        {
+          "label": "Công ty con/liên doanh nước ngoài",
+          "value": "Driftwood (Mỹ), Angkormilk (Campuchia), Lao-Jagro (Lào), liên doanh Del Monte-Vinamilk (Philippines)"
+        },
+        {
+          "label": "KQKD H1/2026 thực tế (Vietstock, 31/07/2026)",
+          "value": "Doanh thu quốc tế +39.1% YoY (H1) / +39.2% YoY (Q2), trong đó export trực tiếp +16.2% YoY — vượt xa guidance cả năm 15%"
+        }
+      ],
+      "mechanism": "Xuất khẩu trực tiếp (chủ yếu Trung Đông) và doanh thu quốc tế qua công ty con/liên doanh (Mỹ, Campuchia, Lào, Philippines) là động lực tăng trưởng chính của VNM khi thị trường nội địa đã bão hòa — ban lãnh đạo tự đặt guidance xuất khẩu 2026 cao gấp ~3 lần nội địa. Rủi ro tập trung: phụ thuộc lớn vào một khu vực (Trung Đông, ~85% xuất khẩu trực tiếp theo số liệu lịch sử) tạo rủi ro địa chính trị/nhu cầu khu vực chưa được định lượng lại gần đây. H1/2026 thực tế (+39% doanh thu quốc tế) đã vượt xa guidance cả năm (15%) ngay từ giữa năm, đến từ cả export trực tiếp (+16.2%, đúng nhịp guidance) lẫn tăng trưởng mạnh của công ty con nước ngoài (Angkormilk, Driftwood) — cần tách bạch hai cấu phần này để đánh giá tính bền vững.",
+      "affected": [
+        {
+          "ticker": "VNM",
+          "direction": "Động lực tăng trưởng chính, thay thế cho nội địa bão hòa",
+          "sensitivity": "Guidance +15% xuất khẩu 2026 so với +4-6% nội địa — nếu xuất khẩu miss guidance, tăng trưởng tổng doanh thu VNM giảm mạnh vì đây là phần đóng góp tăng trưởng biên (marginal growth) chính, không phải phần đệm. Thực tế H1/2026 đã vượt xa guidance — nếu Q3-Q4 duy trì được nhịp độ này, tăng trưởng tổng doanh thu VNM cả năm 2026 có thể vượt đáng kể so với con số model 67,490.6 tỷ hiện có trong dashboard.",
+          "timing": "Theo dõi theo quý qua tỷ trọng doanh thu quốc tế/tổng doanh thu; ⚠ số liệu tỷ trọng Trung Đông (85%) là dữ liệu cũ, cần xác minh lại mức độ tập trung khu vực hiện tại."
+        }
       ]
     },
     {
@@ -363,14 +974,31 @@
       "cadence": "Quý (BCTC) — không có chỉ số realtime công khai",
       "live": null,
       "anchors": [
-        {"label": "Giá mua từ nông hộ (~83% đàn)", "value": "13,000–15,000 VND/lít"},
-        {"label": "Giá tự sản xuất (~17% đàn, trại tập trung)", "value": "10,000–12,000 VND/lít"},
-        {"label": "Nguyên liệu/doanh thu theo BCTC thực tế", "value": "61.4% (2023) → 63.6% (2024) → 64.7% (2025)"},
-        {"label": "Độ nhạy biên gộp", "value": "±1 điểm % BLNG ≈ ±31 tỷ VND EBIT"}
+        {
+          "label": "Giá mua từ nông hộ (~83% đàn)",
+          "value": "13,000–15,000 VND/lít"
+        },
+        {
+          "label": "Giá tự sản xuất (~17% đàn, trại tập trung)",
+          "value": "10,000–12,000 VND/lít"
+        },
+        {
+          "label": "Nguyên liệu/doanh thu theo BCTC thực tế",
+          "value": "61.4% (2023) → 63.6% (2024) → 64.7% (2025)"
+        },
+        {
+          "label": "Độ nhạy biên gộp",
+          "value": "±1 điểm % BLNG ≈ ±31 tỷ VND EBIT"
+        }
       ],
       "mechanism": "Không có index giá sữa tươi Mộc Châu công khai realtime. Chỉ có thể theo dõi qua BCTC quý và tỷ trọng đàn tự sản xuất tăng dần (dự án Sơn La). Đây là driver quan trọng nhất của MCM nhưng không thể realtime hoá đúng nghĩa.",
       "affected": [
-        {"ticker": "MCM", "direction": "Bất lợi khi tỷ trọng nguyên liệu/doanh thu tiếp tục tăng", "sensitivity": "±1% BLNG ≈ ±31 tỷ VND EBIT — mức nhạy cao nhất trong toàn bộ portfolio 4 mã.", "timing": "Theo dõi mỗi kỳ BCTC quý; đã tăng 3 năm liên tiếp 2023-2025."}
+        {
+          "ticker": "MCM",
+          "direction": "Bất lợi khi tỷ trọng nguyên liệu/doanh thu tiếp tục tăng",
+          "sensitivity": "±1% BLNG ≈ ±31 tỷ VND EBIT — mức nhạy cao nhất trong toàn bộ portfolio 4 mã.",
+          "timing": "Theo dõi mỗi kỳ BCTC quý; đã tăng 3 năm liên tiếp 2023-2025."
+        }
       ]
     },
     {
@@ -381,14 +1009,31 @@
       "cadence": "Theo tiến độ dự án + BCTC quý",
       "live": null,
       "anchors": [
-        {"label": "Quy mô dự án", "value": "4,000 bò; tổng vốn công bố ~135.8 triệu USD (chưa đối chiếu được với capex thực chi trên BCTC MCM)"},
-        {"label": "Uplift LN gộp model (đã hiệu chỉnh)", "value": "11.96 tỷ (2026F) → 36 tỷ (2027F) → 48 tỷ (2028F)"},
-        {"label": "Tiết kiệm chi phí/lít khi tự chủ", "value": "2,000 VND/lít (2026F) → 2,500 VND/lít (2027-28F)"},
-        {"label": "Nâng công suất chế biến Phase 2", "value": "lên 1,000 tấn/ngày, mục tiêu Q2/2026"}
+        {
+          "label": "Quy mô dự án",
+          "value": "4,000 bò; tổng vốn công bố ~135.8 triệu USD (chưa đối chiếu được với capex thực chi trên BCTC MCM)"
+        },
+        {
+          "label": "Uplift LN gộp model (đã hiệu chỉnh)",
+          "value": "11.96 tỷ (2026F) → 36 tỷ (2027F) → 48 tỷ (2028F)"
+        },
+        {
+          "label": "Tiết kiệm chi phí/lít khi tự chủ",
+          "value": "2,000 VND/lít (2026F) → 2,500 VND/lít (2027-28F)"
+        },
+        {
+          "label": "Nâng công suất chế biến Phase 2",
+          "value": "lên 1,000 tấn/ngày, mục tiêu Q2/2026"
+        }
       ],
       "mechanism": "Đây là câu chuyện margin (tiết kiệm chi phí từ tự chủ nguyên liệu), không phải câu chuyện volume — model MCM ghi rõ điều này. Capex thực chi trên BCTC (354.9 tỷ VND xây dựng dở dang 2025) nhỏ hơn nhiều so với 135.8 triệu USD công bố — khả năng đây là tổng vốn dự án đa giai đoạn/đa bên, chưa đối chiếu được.",
       "affected": [
-        {"ticker": "MCM", "direction": "Thuận lợi dài hạn nhưng đóng góp 2026F còn nhỏ", "sensitivity": "~12 tỷ VND LN gộp 2026F, tương đương ~5% LNST 2026F ước tính — chưa phải động lực chính trong năm nay.", "timing": "Tăng dần 2026→2028; theo dõi Phase 2 công suất chế biến."}
+        {
+          "ticker": "MCM",
+          "direction": "Thuận lợi dài hạn nhưng đóng góp 2026F còn nhỏ",
+          "sensitivity": "~12 tỷ VND LN gộp 2026F, tương đương ~5% LNST 2026F ước tính — chưa phải động lực chính trong năm nay.",
+          "timing": "Tăng dần 2026→2028; theo dõi Phase 2 công suất chế biến."
+        }
       ]
     },
     {
@@ -399,14 +1044,31 @@
       "cadence": "Quý (BCTC)",
       "live": null,
       "anchors": [
-        {"label": "2025A", "value": "0.14% (3.9 tỷ VND)"},
-        {"label": "2026F / 2027F / 2028F (model)", "value": "8.7% / 15.7% / 23.5%"},
-        {"label": "Biên gộp MCC vs Legacy (model)", "value": "MCC ~30.1% vs Legacy ~28.1%"},
-        {"label": "Mốc tham chiếu Vinamilk", "value": "Green Farm cần ~3-4 năm để đạt +30-50%/năm; toàn bộ premium portfolio VNM vẫn <10% doanh thu sau 6 năm"}
+        {
+          "label": "2025A",
+          "value": "0.14% (3.9 tỷ VND)"
+        },
+        {
+          "label": "2026F / 2027F / 2028F (model)",
+          "value": "8.7% / 15.7% / 23.5%"
+        },
+        {
+          "label": "Biên gộp MCC vs Legacy (model)",
+          "value": "MCC ~30.1% vs Legacy ~28.1%"
+        },
+        {
+          "label": "Mốc tham chiếu Vinamilk",
+          "value": "Green Farm cần ~3-4 năm để đạt +30-50%/năm; toàn bộ premium portfolio VNM vẫn <10% doanh thu sau 6 năm"
+        }
       ],
       "mechanism": "MCC là biến số tái định vị thương hiệu quan trọng nhất của MCM (ra mắt 12/2025). Model coi mục tiêu 50-60% doanh thu trong 3 năm của ban lãnh đạo là quá lạc quan và tự xây đường ramp chậm hơn, dựa trên lịch sử premium brand của chính Vinamilk.",
       "affected": [
-        {"ticker": "MCM", "direction": "Thuận lợi nếu đúng lộ trình model; rủi ro cannibalize legacy nếu chậm hơn", "sensitivity": "Mỗi 1 điểm % BLNG MCC ≈ 2.8 tỷ NPAT; mỗi 1 điểm % BLNG Legacy ≈ 23 tỷ NPAT — Legacy vẫn nhạy hơn MCC ~8 lần vì tỷ trọng doanh thu lớn hơn nhiều.", "timing": "Theo dõi mỗi quý qua tỷ trọng MCC/tổng doanh thu và BLNG blended."}
+        {
+          "ticker": "MCM",
+          "direction": "Thuận lợi nếu đúng lộ trình model; rủi ro cannibalize legacy nếu chậm hơn",
+          "sensitivity": "Mỗi 1 điểm % BLNG MCC ≈ 2.8 tỷ NPAT; mỗi 1 điểm % BLNG Legacy ≈ 23 tỷ NPAT — Legacy vẫn nhạy hơn MCC ~8 lần vì tỷ trọng doanh thu lớn hơn nhiều.",
+          "timing": "Theo dõi mỗi quý qua tỷ trọng MCC/tổng doanh thu và BLNG blended."
+        }
       ]
     },
     {
@@ -415,15 +1077,45 @@
       "category": "market-live",
       "unit": "US cents/lb (ICE)",
       "cadence": "Live",
-      "live": {"symbol": "sugar", "label": "ICE Sugar No.11 futures (SB=F)", "note": "QNS tự theo dõi thêm giá đường trắng Trung Quốc (CNY/tấn) và chỉ số VN-SUGAR nội địa trong model — không public qua Yahoo nên dashboard chỉ hiện SB=F làm proxy hướng đi."},
+      "live": {
+        "symbol": "sugar",
+        "label": "ICE Sugar No.11 futures (SB=F)",
+        "note": "Không có index giá đường Trung Quốc/Thái Lan realtime công khai qua Yahoo; ICE #11 chỉ dùng làm proxy hướng đi toàn cầu. Với QNS, benchmark khu vực (Trung Quốc, Indonesia, Philippines) sát hơn nhiều vì dòng chảy buôn lậu/nhập khẩu cạnh tranh trực tiếp là khu vực, không phải toàn cầu."
+      },
       "anchors": [
-        {"label": "Giá đường RS trong nước — giả định model", "value": "20,000 (2024) → 17,225 (2025) → 16,000 VND/kg (2026F, giảm dần)"},
-        {"label": "Chỉ số VN-SUGAR nội bộ QNS (đầu 2026)", "value": "~28,500 VND/kg, tăng từ ~24,500 phần lớn 2025"},
-        {"label": "Lưu ý tương quan giá cổ phiếu", "value": "Từ đầu 2024, giá cổ phiếu QNS đã ít biến động theo giá đường hơn trước (ghi nhận trong chính tài liệu QNS)"}
+        {
+          "label": "Giá đường RS trong nước — giả định model",
+          "value": "20,000 (2024) → 17,225 (2025) → 16,000 VND/kg (2026F, giảm dần)"
+        },
+        {
+          "label": "Chỉ số VN-SUGAR nội bộ QNS (đầu 2026)",
+          "value": "~28,500 VND/kg, tăng từ ~24,500 phần lớn 2025"
+        },
+        {
+          "label": "Lưu ý tương quan giá cổ phiếu",
+          "value": "Từ đầu 2024, giá cổ phiếu QNS đã ít biến động theo giá đường hơn trước (ghi nhận trong chính tài liệu QNS)"
+        },
+        {
+          "label": "So sánh giá đường khu vực (VSSA, 05/06/2026)",
+          "value": "Đường VN rẻ hơn Trung Quốc ~15%, rẻ hơn Indonesia ~65%, rẻ hơn Philippines ~67% — giá đang ở mức thấp nhất 3 năm do dư cung + đường lậu"
+        },
+        {
+          "label": "Giá đường Trung Quốc vs VN (số liệu tham chiếu khác)",
+          "value": "~19,434 đ/kg (TQ) so với ~16,892 đ/kg (VN bình quân) — TQ ~115% giá VN"
+        },
+        {
+          "label": "KQKD mảng đường Q2/2026 (thực tế, đã xác nhận)",
+          "value": "Doanh thu 1,045 tỷ (+7% YoY), LNTT giảm 44% còn ~90 tỷ — nguyên nhân trực tiếp: giá bán bình quân giảm 13% YoY"
+        }
       ],
-      "mechanism": "Giá đường nội địa QNS giả định trong model đi khác chiều với chỉ số nội bộ QNS tự theo dõi (model giảm dần, chỉ số nội bộ lại tăng đầu 2026) — hai nguồn trong cùng bộ hồ sơ QNS không khớp nhau, cần ưu tiên số liệu quý thực tế.",
+      "mechanism": "Giá đường nội địa QNS giả định trong model đi khác chiều với chỉ số nội bộ QNS tự theo dõi (model giảm dần, chỉ số nội bộ lại tăng đầu 2026) — hai nguồn trong cùng bộ hồ sơ QNS không khớp nhau, cần ưu tiên số liệu quý thực tế. Về bản chất, giá đường khu vực (Trung Quốc, Indonesia, Philippines qua kênh nhập khẩu/nhập lậu biên giới) là benchmark quyết định trực tiếp hơn nhiều so với giá thế giới ICE #11 — vì áp lực cạnh tranh của QNS đến từ đường giá rẻ tràn qua biên giới Lào/Campuchia (nguồn gốc Thái Lan) và chênh lệch giá khu vực, không phải biến động hàng hoá toàn cầu. VSSA (05/06/2026) ghi nhận giá đường nội địa đang ở mức thấp nhất 3 năm vì dư cung và đường lậu, bất chấp giá ICE global không sụp. Q2/2026 xác nhận xu hướng: doanh thu mảng đường vẫn tăng nhờ sản lượng nhưng LNTT giảm mạnh vì giá bán bình quân giảm 13% — khớp với luận điểm giá đường khu vực (dư cung + đường lậu kéo giá xuống) quan trọng hơn ICE global.",
       "affected": [
-        {"ticker": "QNS", "direction": "Hỗn hợp — biên mảng đường đã giảm mạnh dù giá đường thế giới không sụp", "sensitivity": "BLNG mảng đường: 32.7% (2024) → 19.8% (2025), giữ nguyên trong giả định 2026F. LNTT mảng đường 2 tháng đầu 2026 giảm 53% YoY dù doanh thu +13% và sản lượng +38%.", "timing": "Theo dõi báo cáo quý; 16/06/2026 là hạn gia hạn thuế CBPG/CTC — xem driver riêng."}
+        {
+          "ticker": "QNS",
+          "direction": "Hỗn hợp — biên mảng đường đã giảm mạnh dù giá đường thế giới không sụp",
+          "sensitivity": "BLNG mảng đường: 32.7% (2024) → 19.8% (2025), giữ nguyên trong giả định 2026F. LNTT mảng đường 2 tháng đầu 2026 giảm 53% YoY dù doanh thu +13% và sản lượng +38%. Giá đường lậu biên giới Lào/Campuchia (~16,300 đ/kg) gần sát giá chính ngạch — dư địa margin bị bào mòn bởi cạnh tranh giá khu vực nhiều hơn là biến động ICE toàn cầu.",
+          "timing": "Theo dõi báo cáo quý; 16/06/2026 là hạn gia hạn thuế CBPG/CTC — xem driver riêng."
+        }
       ]
     },
     {
@@ -434,13 +1126,27 @@
       "cadence": "Sự kiện hành chính — không có live feed, theo dõi qua công báo Bộ Công Thương",
       "live": null,
       "anchors": [
-        {"label": "Mức thuế hiện hành", "value": "CBPG ~42.99% + CTC ~4.65%"},
-        {"label": "Hạn gia hạn", "value": "16/06/2026"},
-        {"label": "Kỳ vọng công ty", "value": "QNS tự tin gia hạn ở mức không đổi"}
+        {
+          "label": "Mức thuế hiện hành",
+          "value": "CBPG ~42.99% + CTC ~4.65%"
+        },
+        {
+          "label": "Hạn gia hạn",
+          "value": "16/06/2026"
+        },
+        {
+          "label": "Kỳ vọng công ty",
+          "value": "QNS tự tin gia hạn ở mức không đổi"
+        }
       ],
       "mechanism": "Rào cản thuế quan bảo vệ ngành đường nội địa khỏi đường Thái Lan giá rẻ, ban hành từ 2021. Hạn 16/06/2026 đã QUA so với ngày cut-off dashboard (13/08/2026) — cần xác minh kết quả gia hạn thực tế qua tin tức/công báo MOIT vì nguồn (ĐHCĐ 2026) chỉ ghi kỳ vọng công ty, chưa có kết quả chính thức.",
       "affected": [
-        {"ticker": "QNS", "direction": "Rủi ro chính sách lớn nhất của mảng đường", "sensitivity": "Không có bảng sensitivity định lượng nào trong model cho kịch bản không gia hạn/giảm thuế.", "timing": "⚠ Hạn đã qua — CẦN XÁC MINH kết quả thực tế, dữ liệu nguồn chưa cập nhật."}
+        {
+          "ticker": "QNS",
+          "direction": "Rủi ro chính sách lớn nhất của mảng đường",
+          "sensitivity": "Không có bảng sensitivity định lượng nào trong model cho kịch bản không gia hạn/giảm thuế.",
+          "timing": "⚠ Hạn đã qua — CẦN XÁC MINH kết quả thực tế, dữ liệu nguồn chưa cập nhật."
+        }
       ]
     },
     {
@@ -451,13 +1157,27 @@
       "cadence": "Sự kiện hành chính",
       "live": null,
       "anchors": [
-        {"label": "Nhập khẩu HFCS/năm", "value": ">350,000 tấn, thuế nhập khẩu 0%"},
-        {"label": "Nguồn nhập chính", "value": "Trung Quốc, Hàn Quốc"},
-        {"label": "Thời gian điều tra dự kiến", "value": "~1 năm (Bộ Công Thương)"}
+        {
+          "label": "Nhập khẩu HFCS/năm",
+          "value": ">350,000 tấn, thuế nhập khẩu 0%"
+        },
+        {
+          "label": "Nguồn nhập chính",
+          "value": "Trung Quốc, Hàn Quốc"
+        },
+        {
+          "label": "Thời gian điều tra dự kiến",
+          "value": "~1 năm (Bộ Công Thương)"
+        }
       ],
       "mechanism": "HFCS cạnh tranh trực tiếp với đường mía nội địa mà không chịu rào cản thuế nào, khác đường Thái. Điều tra tự vệ thương mại đang được chuẩn bị nhưng chưa có ngày nộp hồ sơ/quyết định cụ thể trong nguồn.",
       "affected": [
-        {"ticker": "QNS", "direction": "Rủi ro cạnh tranh giá kéo dài nếu không có biện pháp tự vệ", "sensitivity": "Không định lượng trong nguồn.", "timing": "Theo dõi tin tức MOIT — không có mốc thời gian cụ thể."}
+        {
+          "ticker": "QNS",
+          "direction": "Rủi ro cạnh tranh giá kéo dài nếu không có biện pháp tự vệ",
+          "sensitivity": "Không định lượng trong nguồn.",
+          "timing": "Theo dõi tin tức MOIT — không có mốc thời gian cụ thể."
+        }
       ]
     },
     {
@@ -466,14 +1186,72 @@
       "category": "market-live",
       "unit": "USX/bu (đậu nành)",
       "cadence": "Live (proxy định hướng)",
-      "live": {"symbol": "soybean", "label": "CBOT Soybean futures (ZS=F)", "note": "AGM QNS dùng biểu đồ FRED 'Global price of Soybean Oil' làm tham chiếu vĩ mô; ZS=F là proxy gần nhất có sẵn qua Yahoo, mang tính định hướng chứ không map 1:1 vào giá QNS thực mua."},
+      "live": {
+        "symbol": "soybean",
+        "label": "CBOT Soybean futures (ZS=F)",
+        "note": "AGM QNS dùng biểu đồ FRED 'Global price of Soybean Oil' làm tham chiếu vĩ mô; ZS=F là proxy gần nhất có sẵn qua Yahoo, mang tính định hướng chứ không map 1:1 vào giá QNS thực mua."
+      },
       "anchors": [
-        {"label": "Thông tin công ty công bố", "value": "Đã chốt giá đậu nành 2026 thuận lợi, thấp hơn năm trước (không có số VND/kg hay USD/bushel cụ thể trong nguồn)"},
-        {"label": "BLNG Vinasoy", "value": "39.2% (2024) → 44.4% (2025) → 41.8% (2026F, model)"}
+        {
+          "label": "Thông tin công ty công bố",
+          "value": "Đã chốt giá đậu nành 2026 thuận lợi, thấp hơn năm trước (không có số VND/kg hay USD/bushel cụ thể trong nguồn)"
+        },
+        {
+          "label": "BLNG Vinasoy",
+          "value": "39.2% (2024) → 44.4% (2025) → 41.8% (2026F, model)"
+        }
       ],
       "mechanism": "Nghịch lý trong model: công ty nói đã chốt giá đậu nành 2026 thuận lợi (biên phải tốt lên), nhưng model lại giả định BLNG Vinasoy giảm ~2.6 điểm % 2026F — không có lời giải thích trong nguồn, có thể do chi phí khác (bao bì, logistics, khuyến mãi) chưa tách bạch.",
       "affected": [
-        {"ticker": "QNS", "direction": "Thuận lợi theo lời công ty, nhưng mâu thuẫn với giả định model — cần làm rõ", "sensitivity": "Không có bảng cost-passthrough định lượng trong nguồn.", "timing": "Theo dõi báo cáo quý Vinasoy để xem BLNG thực tế đi theo hướng nào."}
+        {
+          "ticker": "QNS",
+          "direction": "Thuận lợi theo lời công ty, nhưng mâu thuẫn với giả định model — cần làm rõ",
+          "sensitivity": "Không có bảng cost-passthrough định lượng trong nguồn.",
+          "timing": "Theo dõi báo cáo quý Vinasoy để xem BLNG thực tế đi theo hướng nào."
+        }
+      ]
+    },
+    {
+      "id": "qns_soymilk_consumption",
+      "name": "Tiêu dùng & thị phần sữa đậu nành/sữa hạt (Vinasoy/Fami)",
+      "category": "operational",
+      "unit": "% thị phần / tỷ VND quy mô thị trường",
+      "cadence": "Năm — theo báo cáo ngành, không có chỉ số quý công khai",
+      "live": null,
+      "anchors": [
+        {
+          "label": "Thị phần sữa đậu nành đóng hộp của QNS (Fami + Vinasoy)",
+          "value": "~90% thị phần Việt Nam"
+        },
+        {
+          "label": "Thị phần sữa thực vật nói chung (QNS + VNM)",
+          "value": ">80%, Vinamilk và Nutifood mỗi bên ~5%"
+        },
+        {
+          "label": "Quy mô thị trường sữa đậu nành có thương hiệu",
+          "value": "~4,500 tỷ VND (2023 — số liệu cũ nhất tìm được, cần cập nhật 2025-2026)"
+        },
+        {
+          "label": "Quy mô thị trường sữa VN nói chung (2025)",
+          "value": ">133 nghìn tỷ VND, dự báo CAGR ~9.5% đến 2033"
+        },
+        {
+          "label": "Đối thủ đang gia tăng áp lực",
+          "value": "Nutifood, TH true Nut mở rộng danh mục sữa hạt/sữa đậu nành"
+        },
+        {
+          "label": "Xác nhận Q2/2026 (Vietcap)",
+          "value": "Vinasoy tiếp tục dẫn dắt tăng trưởng lợi nhuận gộp toàn công ty trong Q2/2026, chủ yếu nhờ sản phẩm mới và nâng cấp mix — không phải tăng trưởng sản lượng nền"
+        }
+      ],
+      "mechanism": "QNS gần như độc quyền mảng sữa đậu nành đóng hộp (~90% thị phần qua Fami + Vinasoy), nên driver chính không phải là giành thị phần mà là quy mô TOÀN NGÀNH sữa đậu nành/sữa hạt có tăng trưởng hay không, và đối thủ mới (Nutifood, TH true Nut) có ăn mòn thị phần biên hay không. Đây là mảng biên cao nhất của QNS (Vinasoy GPM 39-44%, xem driver soybean_input), đóng vai trò bộ đệm lợi nhuận khi mảng đường biến động chu kỳ mạnh.",
+      "affected": [
+        {
+          "ticker": "QNS",
+          "direction": "Ổn định nhờ vị thế gần độc quyền; rủi ro dài hạn là ăn mòn thị phần biên từ đối thủ mới, không phải mất thị phần đột ngột",
+          "sensitivity": "Thị phần thống lĩnh (90%) khiến QNS ít rủi ro cạnh tranh trực tiếp ngắn hạn hơn nhiều so với mảng đường, nhưng thiếu số liệu quy mô thị trường cập nhật 2025-2026 trong nguồn khiến khó định lượng chính xác tốc độ tăng trưởng thực tế của mảng này.",
+          "timing": "Theo dõi BLNG Vinasoy theo quý (driver soybean_input) và tin tức thị phần ngành hàng năm."
+        }
       ]
     },
     {
@@ -484,15 +1262,35 @@
       "cadence": "Theo tiến độ dự án",
       "live": null,
       "anchors": [
-        {"label": "Mở rộng công suất mía An Khê", "value": "18,000 → 25,000 tấn mía/ngày, mục tiêu 2028, vốn 3,000-4,000 tỷ VND"},
-        {"label": "Nhà máy Ethanol An Khê", "value": "200,000 lít/ngày, vốn >2,000 tỷ VND, mục tiêu vận hành 01/01/2028"},
-        {"label": "Rủi ro tự công bố", "value": "QNS cảnh báo rủi ro trượt giá ethanol 30-40% khi vận hành thực tế; không có IRR/payback công bố"},
-        {"label": "Capex thực chi gần nhất", "value": "chỉ ~250-370 tỷ VND/năm (2023-2025)"},
-        {"label": "Nợ dài hạn hiện tại", "value": "0 (từ 2022); chỉ có nợ ngắn hạn ~2,500-2,700 tỷ VND"}
+        {
+          "label": "Mở rộng công suất mía An Khê",
+          "value": "18,000 → 25,000 tấn mía/ngày, mục tiêu 2028, vốn 3,000-4,000 tỷ VND"
+        },
+        {
+          "label": "Nhà máy Ethanol An Khê",
+          "value": "200,000 lít/ngày, vốn >2,000 tỷ VND, mục tiêu vận hành 01/01/2028"
+        },
+        {
+          "label": "Rủi ro tự công bố",
+          "value": "QNS cảnh báo rủi ro trượt giá ethanol 30-40% khi vận hành thực tế; không có IRR/payback công bố"
+        },
+        {
+          "label": "Capex thực chi gần nhất",
+          "value": "chỉ ~250-370 tỷ VND/năm (2023-2025)"
+        },
+        {
+          "label": "Nợ dài hạn hiện tại",
+          "value": "0 (từ 2022); chỉ có nợ ngắn hạn ~2,500-2,700 tỷ VND"
+        }
       ],
       "mechanism": "Khoảng cách giữa capex thực chi lịch sử và quy mô vốn công bố cho 2 dự án lớn, cộng với việc không có nợ dài hạn hiện hữu và tỷ lệ chi trả cổ tức lịch sử rất cao (70-90% LNST), tạo rủi ro tài trợ vốn không được đề cập trong nguồn — nhiều khả năng QNS sẽ phải vay dài hạn mới hoặc giảm mạnh cổ tức (đã thấy dấu hiệu: DPS mục tiêu 2026 giảm còn 1,500đ từ 4,000đ 2025).",
       "affected": [
-        {"ticker": "QNS", "direction": "Optionality dài hạn nhưng rủi ro tài trợ vốn + rủi ro giá ethanol", "sensitivity": "Sàn payout cổ tức 2026 hạ xuống 'không dưới 15% LNST', từ mức lịch sử 60-90%.", "timing": "Xây dựng đã khởi công 12/2025; mục tiêu 2028 cho cả 2 dự án."}
+        {
+          "ticker": "QNS",
+          "direction": "Optionality dài hạn nhưng rủi ro tài trợ vốn + rủi ro giá ethanol",
+          "sensitivity": "Sàn payout cổ tức 2026 hạ xuống 'không dưới 15% LNST', từ mức lịch sử 60-90%.",
+          "timing": "Xây dựng đã khởi công 12/2025; mục tiêu 2028 cho cả 2 dự án."
+        }
       ]
     },
     {
@@ -501,15 +1299,88 @@
       "category": "market-live",
       "unit": "USD/tấn (LME)",
       "cadence": "Live (proxy định hướng)",
-      "live": {"symbol": "aluminum", "label": "LME Aluminum futures (ALI=F)", "note": "File nội bộ SAB tự theo dõi một chuỗi giá nhôm tính bằng CNY/tấn (khớp về độ lớn với hợp đồng SHFE Trung Quốc, ~19,000-20,900 CNY/tấn đầu 2025) — khác benchmark LME hiển thị ở đây. Dùng ALI=F làm proxy hướng đi toàn cầu, không phải mức giá SAB thực trả."},
+      "live": {
+        "symbol": "aluminum",
+        "label": "LME Aluminum futures (ALI=F)",
+        "note": "File nội bộ SAB tự theo dõi một chuỗi giá nhôm tính bằng CNY/tấn (khớp về độ lớn với hợp đồng SHFE Trung Quốc, ~19,000-20,900 CNY/tấn đầu 2025) — khác benchmark LME hiển thị ở đây. Dùng ALI=F làm proxy hướng đi toàn cầu, không phải mức giá SAB thực trả."
+      },
       "anchors": [
-        {"label": "Biến động nhôm 2024", "value": "+18% YoY (gây áp lực chi phí bao bì)"},
-        {"label": "Xu hướng theo báo cáo (04/2025)", "value": "bắt đầu hạ nhiệt; tồn kho giá cao 2024 đã dùng hết"},
-        {"label": "Hedging", "value": "SAB đã ký hợp đồng tương lai với nhà cung cấp để chốt giá — không công bố kỳ hạn/khối lượng"}
+        {
+          "label": "Biến động nhôm 2024",
+          "value": "+18% YoY (gây áp lực chi phí bao bì)"
+        },
+        {
+          "label": "Xu hướng theo báo cáo (04/2025)",
+          "value": "bắt đầu hạ nhiệt; tồn kho giá cao 2024 đã dùng hết"
+        },
+        {
+          "label": "Hedging",
+          "value": "SAB đã ký hợp đồng tương lai với nhà cung cấp để chốt giá — không công bố kỳ hạn/khối lượng"
+        },
+        {
+          "label": "Cập nhật (VDSC, 12/05/2026)",
+          "value": "SAB đã khóa giá nhôm thuận lợi hơn cùng kỳ năm trước cho cả năm 2026, song song với malt — hỗ trợ BLNG suốt năm"
+        }
       ],
-      "mechanism": "Lon nhôm là chi phí bao bì lớn nhất của SAB. Công ty có hợp đồng dài hạn với nhà cung cấp để giảm biến động, nên giá nhôm giao ngay chỉ phản ánh vào BLNG có độ trễ, không hoàn toàn theo thời gian thực.",
+      "mechanism": "Lon nhôm là chi phí bao bì lớn nhất của SAB. Công ty có hợp đồng dài hạn với nhà cung cấp để giảm biến động, nên giá nhôm giao ngay chỉ phản ánh vào BLNG có độ trễ, không hoàn toàn theo thời gian thực. Cập nhật 12/05/2026 (VDSC): SAB xác nhận đã chốt giá nhôm thuận lợi hơn cùng kỳ 2025 cho toàn bộ 2026.",
       "affected": [
-        {"ticker": "SAB", "direction": "Thuận lợi nếu nhôm tiếp tục hạ nhiệt", "sensitivity": "Không có bảng %/VND cụ thể liên kết trực tiếp giá nhôm với BLNG trong nguồn — chỉ có mô tả định tính.", "timing": "⚠ Nguồn dữ liệu SAB đã cũ (báo cáo 04/2025, hơn 1 năm) — cần cập nhật giá nhôm/BLNG quý gần nhất."}
+        {
+          "ticker": "SAB",
+          "direction": "Thuận lợi nếu nhôm tiếp tục hạ nhiệt",
+          "sensitivity": "Không có bảng %/VND cụ thể liên kết trực tiếp giá nhôm với BLNG trong nguồn — chỉ có mô tả định tính.",
+          "timing": "⚠ Nguồn dữ liệu SAB đã cũ (báo cáo 04/2025, hơn 1 năm) — cần cập nhật giá nhôm/BLNG quý gần nhất."
+        }
+      ]
+    },
+    {
+      "id": "sab_malt_barley",
+      "name": "Giá đại mạch/malt nhập khẩu (nguyên liệu bia chính)",
+      "category": "operational",
+      "unit": "% giá vốn hàng bán (COGS)",
+      "cadence": "Không có chỉ số live công khai cho malt/đại mạch — theo dõi qua BLNG quý và báo cáo phân tích (SSI, VDSC)",
+      "live": null,
+      "anchors": [
+        {
+          "label": "Tỷ trọng malt/đại mạch trong giá vốn",
+          "value": "~23-25% COGS (SSI, 05/12/2025) — lớn hơn cả chi phí bao bì nhôm"
+        },
+        {
+          "label": "Xu hướng giá malt 2026F",
+          "value": "Dự kiến tiếp tục giảm hai chữ số, nối tiếp mức giảm mạnh 2025 (SSI, 05/12/2025)"
+        },
+        {
+          "label": "BLNG Q3/2025 thực tế",
+          "value": "37.1% so với 29.7% Q3/2024 (VDSC, cuối 11/2025) — chủ yếu nhờ giá NVL đầu vào giảm"
+        },
+        {
+          "label": "BLNG Q1/2026 thực tế",
+          "value": "37.2% so với 32.2% cùng kỳ 2025"
+        },
+        {
+          "label": "Nguồn nhập khẩu",
+          "value": "Chủ yếu Úc, châu Âu, Mỹ — Việt Nam gần như không tự trồng được đại mạch chất lượng mạch nha"
+        },
+        {
+          "label": "Áp lực chi phí khác cùng chiều",
+          "value": "Nhôm, logistics cũng được VIR (kế hoạch AGM 2026) nêu là biến số đầu vào chính cùng với malt"
+        },
+        {
+          "label": "BLNG thực tế Q1-Q2/2026 (đã xác nhận qua BCTC quý)",
+          "value": "37.2% (Q1/2026, cùng kỳ 32.2%) → 38.7% (Q2/2026, cùng kỳ 36%) — cải thiện liên tục 2 quý liên tiếp"
+        },
+        {
+          "label": "Xác nhận khóa giá 2026 (VDSC, 12/05/2026)",
+          "value": "SAB đã chốt giá malt/đại mạch thuận lợi hơn cùng kỳ 2025 cho toàn bộ năm 2026 — không còn là kỳ vọng, đã là hợp đồng đã ký"
+        }
+      ],
+      "mechanism": "Malt là nguyên liệu chiếm tỷ trọng lớn nhất trong giá vốn bia của SAB (~23-25% COGS), lớn hơn cả chi phí bao bì nhôm vốn đã có driver riêng trong dashboard. Vì Việt Nam không tự chủ được nguồn đại mạch chất lượng mạch nha, SAB phụ thuộc hoàn toàn vào giá nhập khẩu (Úc/châu Âu/Mỹ) và tỷ giá USD/VND. Giá malt giảm mạnh xuyên suốt 2025-2026 là lý do chính giúp BLNG SAB phục hồi rõ rệt (29.7%→37.1% Q3/2024→Q3/2025; 32.2%→37.2% cùng kỳ→Q1/2026) — tác động biên lớn hơn cả driver giá nhôm hiện có.",
+      "affected": [
+        {
+          "ticker": "SAB",
+          "direction": "Thuận lợi rõ rệt — driver margin lớn nhất hiện tại của SAB, lớn hơn cả nhôm",
+          "sensitivity": "BLNG đã cải thiện 5-7 điểm % YoY qua các quý gần nhất, phần lớn nhờ giá malt giảm. Nếu giá malt đảo chiều tăng lại (rủi ro tương tự đợt tăng giá đại mạch toàn cầu 2022 do chiến tranh Nga-Ukraine/hạn hán), đây là rủi ro margin lớn nhất vì SAB khó pass-through giá bán do cạnh tranh mạnh từ bia ngoại phân khúc cao cấp.",
+          "timing": "Theo dõi BLNG mỗi quý — đã xác nhận cải thiện liên tục Q3/2025, Q1/2026, Q2/2026; VDSC (12/05/2026) xác nhận giá đã khóa thuận lợi cho hết 2026."
+        }
       ]
     },
     {
@@ -517,15 +1388,34 @@
       "name": "Lộ trình Thuế tiêu thụ đặc biệt (TTĐB) với bia",
       "category": "policy",
       "unit": "% thuế suất",
-      "cadence": "Chính sách/lập pháp — không có live feed",
+      "cadence": "Chính sách/lập pháp — lộ trình đã được luật hoá, không còn là ẩn số",
       "live": null,
       "anchors": [
-        {"label": "Trạng thái tại thời điểm báo cáo (04/2025)", "value": "SAB vận động giảm mức tăng & kéo dài lộ trình; có khả năng lùi ~1 năm do rủi ro thuế đối ứng Mỹ"},
-        {"label": "Mức thuế suất/lộ trình chính thức", "value": "KHÔNG được công bố trong bất kỳ file nguồn nào"}
+        {
+          "label": "Cơ sở pháp lý",
+          "value": "Luật Thuế TTĐB (sửa đổi) số 66/2025/QH15 — Quốc hội thông qua 14/06/2025 (448/454 phiếu tán thành), hiệu lực từ 01/01/2026"
+        },
+        {
+          "label": "Lộ trình thuế suất bia 2026-2031",
+          "value": "65% (2026) → 70% (2027) → 75% (2028) → 80% (2029) → 85% (2030) → 90% (2031), mỗi năm +5 điểm %"
+        },
+        {
+          "label": "So với trạng thái vận động của SAB (báo cáo 04/2025)",
+          "value": "SAB từng vận động giảm mức tăng/lùi lộ trình ~1 năm — lộ trình cuối cùng được thông qua (65% khởi điểm 2026, tăng đều 5%/năm) không có bằng chứng cho thấy vận động này thành công đáng kể"
+        },
+        {
+          "label": "Phản ứng giá bán của SAB (VDSC, 12/05/2026)",
+          "value": "Đã tăng giá bán 2.0-5.0% so với cuối 2025 để bù đắp một phần áp lực thuế/chi phí — mức độ pass-through còn hạn chế do cạnh tranh bia ngoại phân khúc cao cấp"
+        }
       ],
-      "mechanism": "Biến số lớn nhất tác động cả elasticity cầu lẫn valuation multiple của SAB, nhưng nguồn chỉ có nhận định định tính từ ban lãnh đạo tại một thời điểm đã hơn 1 năm trước, không có bảng lộ trình thuế suất chính thức.",
+      "mechanism": "Lộ trình thuế TTĐB bia đã được luật hoá chính thức (khác với tình trạng cũ trong nguồn — chỉ có nhận định định tính của ban lãnh đạo từ báo cáo 04/2025 đã hơn 1 năm) — tăng đều 5 điểm %/năm liên tục từ 65% (2026) lên 90% (2031), thuộc nhóm lộ trình tăng thuế bia dốc nhất khu vực Đông Nam Á. Đây không còn là biến số chính sách chưa biết mà là số đã cố định trong luật, có thể đưa thẳng vào model định giá multi-year thay vì one-off assumption.",
       "affected": [
-        {"ticker": "SAB", "direction": "Rủi ro chính sách lớn nhất, chưa định lượng được", "sensitivity": "Không có số liệu trong nguồn.", "timing": "⚠ Cần cập nhật từ nguồn bên ngoài — không nằm trong phạm vi các file phân tích hiện có."}
+        {
+          "ticker": "SAB",
+          "direction": "Rủi ro đã lượng hoá được — không còn là ẩn số chính sách, nhưng là chi phí thuế tăng liên tục 6 năm liền",
+          "sensitivity": "Thuế suất +5 điểm %/năm liên tục 2026-2031 tạo áp lực tăng giá bán lẻ hoặc nén margin nếu SAB không pass-through được hết — công ty đã cảnh báo khả năng pass-through bị giới hạn bởi cạnh tranh từ bia ngoại phân khúc cao cấp (VIR, kế hoạch AGM 2026).",
+          "timing": "Đã có hiệu lực từ 01/01/2026 — theo dõi mức độ pass-through giá bán và phản ứng cầu (sản lượng tiêu thụ) qua BCTC từng quý 2026 trở đi."
+        }
       ]
     },
     {
@@ -536,13 +1426,27 @@
       "cadence": "Theo tiến độ hợp nhất — không có live feed",
       "live": null,
       "anchors": [
-        {"label": "Tỷ lệ sở hữu", "value": ">43% (đã hoàn tất mua)"},
-        {"label": "Quy mô", "value": "6 nhà máy, tập trung phân khúc bia lon và bình dân"},
-        {"label": "Chỉ số định lượng duy nhất tìm được", "value": "Lãi từ công ty liên doanh liên kết giảm dần: 323 tỷ (2022) → 232 tỷ (2023) → 197 tỷ (2024)"}
+        {
+          "label": "Tỷ lệ sở hữu",
+          "value": ">43% (đã hoàn tất mua)"
+        },
+        {
+          "label": "Quy mô",
+          "value": "6 nhà máy, tập trung phân khúc bia lon và bình dân"
+        },
+        {
+          "label": "Chỉ số định lượng duy nhất tìm được",
+          "value": "Lãi từ công ty liên doanh liên kết giảm dần: 323 tỷ (2022) → 232 tỷ (2023) → 197 tỷ (2024)"
+        }
       ],
       "mechanism": "Chuyển Sabibeco từ công ty liên kết sang công ty con được kỳ vọng cải thiện hiệu quả hợp nhất, nhưng không có số liệu công suất/doanh thu/biên riêng nào được công bố — lợi ích hợp nhất hiện vẫn là câu chuyện định tính, chưa phản ánh vào số liệu 2024.",
       "affected": [
-        {"ticker": "SAB", "direction": "Optionality công suất + phân khúc bình dân, chưa định lượng được lợi ích", "sensitivity": "Không có số liệu.", "timing": "Theo dõi ngày hợp nhất chính thức và báo cáo margin hợp nhất kỳ tới (chưa công bố trong nguồn)."}
+        {
+          "ticker": "SAB",
+          "direction": "Optionality công suất + phân khúc bình dân, chưa định lượng được lợi ích",
+          "sensitivity": "Không có số liệu.",
+          "timing": "Theo dõi ngày hợp nhất chính thức và báo cáo margin hợp nhất kỳ tới (chưa công bố trong nguồn)."
+        }
       ]
     },
     {
@@ -551,16 +1455,29 @@
       "category": "market-live",
       "unit": "VND/USD",
       "cadence": "Live",
-      "live": {"symbol": "fx", "label": "USD/VND spot (VND=X)", "note": "Ảnh hưởng gián tiếp tới chi phí nhập khẩu nguyên liệu (sữa bột VNM, nhôm SAB) — không có model nào trong 4 bộ hồ sơ định lượng riêng dòng FX, đây là driver cross-cutting theo dõi bổ sung."},
+      "live": {
+        "symbol": "fx",
+        "label": "USD/VND spot (VND=X)",
+        "note": "Ảnh hưởng gián tiếp tới chi phí nhập khẩu nguyên liệu (sữa bột VNM, nhôm SAB) — không có model nào trong 4 bộ hồ sơ định lượng riêng dòng FX, đây là driver cross-cutting theo dõi bổ sung."
+      },
       "anchors": [],
       "mechanism": "VND mất giá làm tăng chi phí quy đổi cho nguyên liệu nhập khẩu bằng USD (SMP/WMP của VNM, nhôm của SAB), khuếch đại hoặc triệt tiêu lợi ích từ giá hàng hoá thế giới giảm.",
       "affected": [
-        {"ticker": "VNM", "direction": "Bất lợi nếu VND mất giá đồng thời giá sữa bột tăng (cộng hưởng 2 chiều)", "sensitivity": "Không có dòng giả định FX riêng trong model VNM.", "timing": "Theo dõi song song với driver milk_powder."},
-        {"ticker": "SAB", "direction": "Bất lợi nếu VND mất giá làm tăng chi phí nhôm nhập khẩu quy đổi", "sensitivity": "Không định lượng trong nguồn.", "timing": "Theo dõi song song với driver aluminum_packaging."}
+        {
+          "ticker": "VNM",
+          "direction": "Bất lợi nếu VND mất giá đồng thời giá sữa bột tăng (cộng hưởng 2 chiều)",
+          "sensitivity": "Không có dòng giả định FX riêng trong model VNM.",
+          "timing": "Theo dõi song song với driver milk_powder."
+        },
+        {
+          "ticker": "SAB",
+          "direction": "Bất lợi nếu VND mất giá làm tăng chi phí nhôm nhập khẩu quy đổi",
+          "sensitivity": "Không định lượng trong nguồn.",
+          "timing": "Theo dõi song song với driver aluminum_packaging."
+        }
       ]
     }
   ],
-
   "dataQualityNotes": [
     {
       "ticker": "VNM",
@@ -597,16 +1514,58 @@
         "Bộ hồ sơ SAB là CŨ NHẤT trong 4 mã — báo cáo và số liệu dừng ở 04/2025, hơn 15 tháng so với ngày cut-off dashboard (13/08/2026). Không có KH 2026, không có kết quả FY2025 thực tế, không có cập nhật TTĐB gần đây.",
         "File PPTX 'Cập nhật ĐHCĐ SAB' thực chất là bản tổng hợp đa doanh nghiệp — 5/10 trang đầu nói về PVDrilling (PVD), chỉ 4 trang thực sự về SAB.",
         "Không có market share, sản lượng tuyệt đối, hay chi tiết công suất/margin Sabibeco nào được công bố — toàn bộ lợi ích hợp nhất hiện là định tính.",
-        "File Excel không có tab DCF/sensitivity/assumption — chỉ là bảng theo dõi giá thị trường + ratio lịch sử, không phải model dự phóng đầy đủ như 3 mã còn lại."
+        "File Excel không có tab DCF/sensitivity/assumption — chỉ là bảng theo dõi giá thị trường + ratio lịch sử, không phải model dự phóng đầy đủ như 3 mã còn lại.",
+        "FY2025 doanh thu: chuỗi số liệu model cũ (2018-2024, kết thúc 32,164 tỷ năm 2024) KHÔNG nối khớp với số liệu FY2025 tìm được qua báo chí 08/2026 — cafef (31/01/2026) ghi 25,888 tỷ (-19% YoY), trong khi VIR (23/04/2026) ghi ~32,000 tỷ. Hai nguồn báo chí cũng lệch nhau ~6,000 tỷ cho CÙNG một kỳ — nhiều khả năng khác cơ sở (doanh thu thuần sau thuế TTĐB vs tổng doanh thu, hoặc hợp nhất vs công ty mẹ). KHÔNG merge vào chuỗi số liệu chính cho đến khi đối chiếu được BCTC gốc.",
+        "Chi phí quảng cáo/khuyến mãi Q2/2026 tăng ~26% YoY theo Vietstock (29/07/2026) — không có trong bất kỳ nguồn local nào, mới phát hiện qua bổ sung 08/2026."
       ]
     }
   ],
-
   "liveDrivers": [
-    {"id": "milk", "name": "CME Class III Milk", "symbol": "DC=F", "unit": "USD/cwt", "linkedTickers": ["VNM"]},
-    {"id": "sugar", "name": "ICE Sugar No.11", "symbol": "SB=F", "unit": "US cents/lb", "linkedTickers": ["QNS"]},
-    {"id": "soybean", "name": "CBOT Soybean", "symbol": "ZS=F", "unit": "USX/bu", "linkedTickers": ["QNS"]},
-    {"id": "aluminum", "name": "LME Aluminum", "symbol": "ALI=F", "unit": "USD/MT", "linkedTickers": ["SAB"]},
-    {"id": "fx", "name": "USD/VND", "symbol": "VND=X", "unit": "VND", "linkedTickers": ["VNM", "SAB"]}
+    {
+      "id": "milk",
+      "name": "CME Class III Milk",
+      "symbol": "DC=F",
+      "unit": "USD/cwt",
+      "linkedTickers": [
+        "VNM"
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "ICE Sugar No.11",
+      "symbol": "SB=F",
+      "unit": "US cents/lb",
+      "linkedTickers": [
+        "QNS"
+      ]
+    },
+    {
+      "id": "soybean",
+      "name": "CBOT Soybean",
+      "symbol": "ZS=F",
+      "unit": "USX/bu",
+      "linkedTickers": [
+        "QNS"
+      ]
+    },
+    {
+      "id": "aluminum",
+      "name": "LME Aluminum",
+      "symbol": "ALI=F",
+      "unit": "USD/MT",
+      "linkedTickers": [
+        "SAB"
+      ]
+    },
+    {
+      "id": "fx",
+      "name": "USD/VND",
+      "symbol": "VND=X",
+      "unit": "VND",
+      "linkedTickers": [
+        "VNM",
+        "SAB"
+      ]
+    }
   ]
 }
