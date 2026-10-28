@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27 22:45:49 UTC",
+  "generatedAt": "2026-10-28 01:55:30 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -556,7 +556,7 @@
       "price": 19.2,
       "change": 4.62,
       "changePct": 0.316872,
-      "volume": 81465,
+      "volume": 0,
       "currency": "USX",
       "exchange": "NYB",
       "timestamp": "2026-10-27",
@@ -709,7 +709,7 @@
         {
           "date": "2026-10-27",
           "close": 19.2,
-          "volume": 81465
+          "volume": 0
         }
       ],
       "source": "Yahoo Finance chart",
@@ -718,13 +718,13 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1243.25,
-      "change": 34.75,
-      "changePct": 0.028755,
-      "volume": 214681,
+      "price": 1244.75,
+      "change": 36.25,
+      "changePct": 0.029996,
+      "volume": 10774,
       "currency": "USX",
       "exchange": "CBT",
-      "timestamp": "2026-10-27",
+      "timestamp": "2026-10-28",
       "history": [
         {
           "date": "2026-09-16",
@@ -872,9 +872,9 @@
           "volume": 168076
         },
         {
-          "date": "2026-10-27",
-          "close": 1243.25,
-          "volume": 214681
+          "date": "2026-10-28",
+          "close": 1244.75,
+          "volume": 10774
         }
       ],
       "source": "Yahoo Finance chart",
@@ -883,13 +883,13 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3178.75,
-      "change": -363.25,
-      "changePct": -0.102555,
-      "volume": 3,
+      "price": 3185.25,
+      "change": -356.75,
+      "changePct": -0.10072,
+      "volume": 4,
       "currency": "USD",
       "exchange": "CMX",
-      "timestamp": "2026-10-27",
+      "timestamp": "2026-10-28",
       "history": [
         {
           "date": "2026-09-16",
@@ -1037,9 +1037,9 @@
           "volume": 0
         },
         {
-          "date": "2026-10-27",
-          "close": 3178.75,
-          "volume": 3
+          "date": "2026-10-28",
+          "close": 3185.25,
+          "volume": 4
         }
       ],
       "source": "Yahoo Finance chart",
@@ -1049,18 +1049,13 @@
     "fx": {
       "symbol": "VND=X",
       "price": 25832.0,
-      "change": -468.0,
-      "changePct": -0.017795,
+      "change": -481.0,
+      "changePct": -0.01828,
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
-      "timestamp": "2026-10-27",
+      "timestamp": "2026-10-28",
       "history": [
-        {
-          "date": "2026-09-15",
-          "close": 25958.0,
-          "volume": 0
-        },
         {
           "date": "2026-09-16",
           "close": 25990.0,
@@ -1203,6 +1198,11 @@
         },
         {
           "date": "2026-10-27",
+          "close": 25841.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-10-28",
           "close": 25832.0,
           "volume": 0
         }
