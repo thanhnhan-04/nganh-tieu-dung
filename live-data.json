@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 02:54:03 UTC",
+  "generatedAt": "2026-11-15 10:10:45 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -418,10 +418,10 @@
   "commodities": {
     "milk": {
       "symbol": "DC=F",
-      "price": 17.58,
-      "change": 1.04,
-      "changePct": 0.062878,
-      "volume": 524,
+      "price": 17.28,
+      "change": 0.74,
+      "changePct": 0.04474,
+      "volume": 658,
       "currency": "USD",
       "exchange": "CME",
       "timestamp": "2026-11-13",
@@ -573,8 +573,8 @@
         },
         {
           "date": "2026-11-13",
-          "close": 17.58,
-          "volume": 524
+          "close": 17.28,
+          "volume": 658
         }
       ],
       "source": "Yahoo Finance chart",
@@ -748,10 +748,10 @@
     },
     "soybean": {
       "symbol": "ZS=F",
-      "price": 1243.0,
-      "change": 69.25,
-      "changePct": 0.058999,
-      "volume": 154,
+      "price": 1231.5,
+      "change": 57.75,
+      "changePct": 0.049201,
+      "volume": 103557,
       "currency": "USX",
       "exchange": "CBT",
       "timestamp": "2026-11-13",
@@ -903,8 +903,8 @@
         },
         {
           "date": "2026-11-13",
-          "close": 1243.0,
-          "volume": 154
+          "close": 1231.5,
+          "volume": 103557
         }
       ],
       "source": "Yahoo Finance chart",
@@ -913,10 +913,10 @@
     },
     "aluminum": {
       "symbol": "ALI=F",
-      "price": 3133.25,
-      "change": -222.25,
-      "changePct": -0.066235,
-      "volume": 0,
+      "price": 3120.0,
+      "change": -235.5,
+      "changePct": -0.070183,
+      "volume": 60,
       "currency": "USD",
       "exchange": "CMX",
       "timestamp": "2026-11-13",
@@ -1068,8 +1068,8 @@
         },
         {
           "date": "2026-11-13",
-          "close": 3133.25,
-          "volume": 0
+          "close": 3120.0,
+          "volume": 60
         }
       ],
       "source": "Yahoo Finance chart",
