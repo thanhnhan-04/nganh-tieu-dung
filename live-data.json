@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 10:31:22 UTC",
+  "generatedAt": "2026-11-22 18:08:45 UTC",
   "quotes": {
     "VNM": {
       "symbol": "VNM.VN",
@@ -1078,19 +1078,14 @@
     },
     "fx": {
       "symbol": "VND=X",
-      "price": 25745.0,
-      "change": -354.0,
-      "changePct": -0.013564,
+      "price": 25705.0,
+      "change": -394.0,
+      "changePct": -0.015096,
       "volume": 0,
       "currency": "VND",
       "exchange": "CCY",
-      "timestamp": "2026-11-20",
+      "timestamp": "2026-11-22",
       "history": [
-        {
-          "date": "2026-10-11",
-          "close": 25889.0,
-          "volume": 0
-        },
         {
           "date": "2026-10-12",
           "close": 25934.0,
@@ -1234,6 +1229,11 @@
         {
           "date": "2026-11-20",
           "close": 25745.0,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-22",
+          "close": 25705.0,
           "volume": 0
         }
       ],
